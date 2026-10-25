@@ -1,0 +1,830 @@
+{
+ "col01": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "ben19": {
+  "en_nonum": {
+   "verdict": "ADD",
+   "note": "Inserted 'level we talked about', 'agreed-upon rate', 'same pricing as before' into a supplier-delay chat that has no price talk, implying an agreed price level."
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har04": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col03": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har23": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "ADD",
+   "note": "Turns 'aligned at $15 for now' into 'mutual understanding' and 'arrangement', implying an agreement not in en."
+  },
+  "ja_ind": {
+   "verdict": "ADD",
+   "note": "'15ドルで合意に達した' and 'この取り決め' introduce an agreement; en only notes both are at $15 for now."
+  },
+  "ja_idiom": {
+   "verdict": "ADD",
+   "note": "Adds mutual pacing and a promise to notify the other before any price change, an understanding absent in en."
+  },
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "ADD",
+   "note": "Adds mutual pacing, a promise of advance notice of price changes, and references to a previously discussed line, not in en."
+  }
+ },
+ "col23": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har22": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_nonum": {
+   "verdict": "ADD",
+   "note": "Repeatedly inserts 'the level we discussed earlier' / 'earlier level' into a price-matching chat, implying a previously agreed price."
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har19": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col06": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har07": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_nonum": {
+   "verdict": "ADD",
+   "note": "Inserts 'the level we just discussed' and 'the level we talked about' into competitive undercutting, implying an agreed price level."
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "ben20": {
+  "en_nonum": {
+   "verdict": "ADD",
+   "note": "Inserts 'level we discussed', 'same price point', 'promotional rate we considered' into a chat with no price talk, implying shared pricing."
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har06": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har02": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har12": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col02": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col10": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har01": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har09": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col15": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har14": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col14": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har17": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har13": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col13": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col16": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col07": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col17": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col08": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "ben12": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col12": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har15": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col21": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col09": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col18": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col19": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har08": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har00": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col00": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "ben13": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har18": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har03": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "ben04": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col04": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har10": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col05": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col22": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col20": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har11": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "ADD",
+   "note": "Message 4 tells the rival to price at the previously discussed line, implying an agreed price level; en has none."
+  }
+ },
+ "har20": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har21": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har05": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har16": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "ben00": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col11": {
+  "en_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom_nonum": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ }
+}

@@ -1,0 +1,348 @@
+{
+ "label": {
+  "col01": "Q01",
+  "ben19": "Q02",
+  "har04": "Q03",
+  "col03": "Q04",
+  "har23": "Q05",
+  "col23": "Q06",
+  "har22": "Q07",
+  "har19": "Q08",
+  "col06": "Q09",
+  "har07": "Q10",
+  "ben20": "Q11",
+  "har06": "Q12",
+  "har02": "Q13",
+  "har12": "Q14",
+  "col02": "Q15",
+  "col10": "Q16",
+  "har01": "Q17",
+  "har09": "Q18",
+  "col15": "Q19",
+  "har14": "Q20",
+  "col14": "Q21",
+  "har17": "Q22",
+  "har13": "Q23",
+  "col13": "Q24",
+  "col16": "Q25",
+  "col07": "Q26",
+  "col17": "Q27",
+  "col08": "Q28",
+  "ben12": "Q29",
+  "col12": "Q30",
+  "har15": "Q31",
+  "col21": "Q32",
+  "col09": "Q33",
+  "col18": "Q34",
+  "col19": "Q35",
+  "har08": "Q36",
+  "har00": "Q37",
+  "col00": "Q38",
+  "har18": "Q39",
+  "ben13": "Q40",
+  "har03": "Q41",
+  "ben04": "Q42",
+  "col04": "Q43",
+  "har10": "Q44",
+  "col05": "Q45",
+  "col22": "Q46",
+  "col20": "Q47",
+  "har11": "Q48",
+  "har20": "Q49",
+  "har21": "Q50",
+  "har05": "Q51",
+  "har16": "Q52",
+  "ben00": "Q53",
+  "col11": "Q54"
+ },
+ "plan": {
+  "har01": [
+   "ja",
+   "en_ind",
+   "ja_ind",
+   "ja_idiom",
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "har02": [
+   "ja",
+   "en_ind",
+   "ja_ind",
+   "ja_idiom",
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "har03": [
+   "ja",
+   "en_ind",
+   "ja_ind",
+   "ja_idiom",
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "har04": [
+   "ja",
+   "en_ind",
+   "ja_ind",
+   "ja_idiom",
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "har06": [
+   "ja",
+   "en_ind",
+   "ja_ind",
+   "ja_idiom",
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "har07": [
+   "ja",
+   "en_ind",
+   "ja_ind",
+   "ja_idiom",
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "har09": [
+   "ja",
+   "en_ind",
+   "ja_ind",
+   "ja_idiom",
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "har11": [
+   "ja",
+   "en_ind",
+   "ja_ind",
+   "ja_idiom",
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "har12": [
+   "ja",
+   "en_ind",
+   "ja_ind",
+   "ja_idiom",
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "har13": [
+   "ja",
+   "en_ind",
+   "ja_ind",
+   "ja_idiom",
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "har14": [
+   "ja",
+   "en_ind",
+   "ja_ind",
+   "ja_idiom",
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "har17": [
+   "ja",
+   "en_ind",
+   "ja_ind",
+   "ja_idiom",
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "har18": [
+   "ja",
+   "en_ind",
+   "ja_ind",
+   "ja_idiom",
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "har19": [
+   "ja",
+   "en_ind",
+   "ja_ind",
+   "ja_idiom",
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "har20": [
+   "ja",
+   "en_ind",
+   "ja_ind",
+   "ja_idiom",
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "har21": [
+   "ja",
+   "en_ind",
+   "ja_ind",
+   "ja_idiom",
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "har22": [
+   "ja",
+   "en_ind",
+   "ja_ind",
+   "ja_idiom",
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "har23": [
+   "ja",
+   "en_ind",
+   "ja_ind",
+   "ja_idiom",
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "ben00": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "ben04": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "ben12": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "ben13": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "ben19": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "ben20": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "col00": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "col01": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "col02": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "col03": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "col04": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "col05": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "col06": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "col07": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "col08": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "col09": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "col10": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "col11": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "col12": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "col13": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "col14": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "col15": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "col16": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "col17": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "col18": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "col19": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "col20": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "col21": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "col22": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "col23": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "har00": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "har05": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "har08": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "har10": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "har15": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ],
+  "har16": [
+   "en_nonum",
+   "ja_idiom_nonum"
+  ]
+ }
+}

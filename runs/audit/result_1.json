@@ -1,0 +1,242 @@
+[
+ {
+  "transcript": "P01",
+  "variant": "ja",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P01",
+  "variant": "en_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P01",
+  "variant": "ja_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P01",
+  "variant": "ja_idiom",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P02",
+  "variant": "ja",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P02",
+  "variant": "en_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P02",
+  "variant": "ja_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P02",
+  "variant": "ja_idiom",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P03",
+  "variant": "ja",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P03",
+  "variant": "en_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P03",
+  "variant": "ja_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P03",
+  "variant": "ja_idiom",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P04",
+  "variant": "ja",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P04",
+  "variant": "en_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P04",
+  "variant": "ja_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P04",
+  "variant": "ja_idiom",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P05",
+  "variant": "ja",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P05",
+  "variant": "en_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P05",
+  "variant": "ja_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P05",
+  "variant": "ja_idiom",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P06",
+  "variant": "ja",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P06",
+  "variant": "en_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P06",
+  "variant": "ja_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P06",
+  "variant": "ja_idiom",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P07",
+  "variant": "ja",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P07",
+  "variant": "en_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P07",
+  "variant": "ja_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P07",
+  "variant": "ja_idiom",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P08",
+  "variant": "ja",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P08",
+  "variant": "en_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P08",
+  "variant": "ja_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P08",
+  "variant": "ja_idiom",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P09",
+  "variant": "ja",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P09",
+  "variant": "en_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P09",
+  "variant": "ja_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P09",
+  "variant": "ja_idiom",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P10",
+  "variant": "ja",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P10",
+  "variant": "en_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P10",
+  "variant": "ja_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P10",
+  "variant": "ja_idiom",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P11",
+  "variant": "ja",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P11",
+  "variant": "en_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P11",
+  "variant": "ja_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P11",
+  "variant": "ja_idiom",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P12",
+  "variant": "ja",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P12",
+  "variant": "en_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P12",
+  "variant": "ja_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "P12",
+  "variant": "ja_idiom",
+  "verdict": "KEEP"
+ }
+]

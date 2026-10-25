@@ -1,0 +1,888 @@
+{
+ "n_excluded": 1,
+ "auc": {
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|en": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|en_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|ja_ind": {
+   "auc": 0.989,
+   "lo": 0.967,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|ja_idiom": {
+   "auc": 0.998,
+   "lo": 0.993,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|bt_ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|bt_ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|bt_ja_idiom": {
+   "auc": 0.989,
+   "lo": 0.97,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "google/gemma-4-31B-it|en": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "google/gemma-4-31B-it|ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "google/gemma-4-31B-it|en_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "google/gemma-4-31B-it|ja_ind": {
+   "auc": 0.989,
+   "lo": 0.968,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "google/gemma-4-31B-it|ja_idiom": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "google/gemma-4-31B-it|bt_ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "google/gemma-4-31B-it|bt_ja_ind": {
+   "auc": 0.989,
+   "lo": 0.968,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "google/gemma-4-31B-it|bt_ja_idiom": {
+   "auc": 0.989,
+   "lo": 0.968,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "ministral-8b-2512|en": {
+   "auc": 0.969,
+   "lo": 0.938,
+   "hi": 0.991,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "ministral-8b-2512|ja": {
+   "auc": 0.967,
+   "lo": 0.934,
+   "hi": 0.992,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "ministral-8b-2512|en_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "ministral-8b-2512|ja_ind": {
+   "auc": 0.98,
+   "lo": 0.949,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "ministral-8b-2512|ja_idiom": {
+   "auc": 0.926,
+   "lo": 0.866,
+   "hi": 0.972,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "ministral-8b-2512|bt_ja": {
+   "auc": 0.967,
+   "lo": 0.936,
+   "hi": 0.992,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "ministral-8b-2512|bt_ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "ministral-8b-2512|bt_ja_idiom": {
+   "auc": 0.941,
+   "lo": 0.893,
+   "hi": 0.98,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "mistral-small-2603|en": {
+   "auc": 0.842,
+   "lo": 0.777,
+   "hi": 0.902,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "mistral-small-2603|ja": {
+   "auc": 0.844,
+   "lo": 0.777,
+   "hi": 0.902,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "mistral-small-2603|en_ind": {
+   "auc": 0.766,
+   "lo": 0.702,
+   "hi": 0.84,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "mistral-small-2603|ja_ind": {
+   "auc": 0.776,
+   "lo": 0.704,
+   "hi": 0.844,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "mistral-small-2603|ja_idiom": {
+   "auc": 0.787,
+   "lo": 0.717,
+   "hi": 0.851,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "mistral-small-2603|bt_ja": {
+   "auc": 0.827,
+   "lo": 0.759,
+   "hi": 0.888,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "mistral-small-2603|bt_ja_ind": {
+   "auc": 0.777,
+   "lo": 0.713,
+   "hi": 0.84,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "mistral-small-2603|bt_ja_idiom": {
+   "auc": 0.776,
+   "lo": 0.704,
+   "hi": 0.844,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "openai/gpt-oss-120b|en": {
+   "auc": 0.969,
+   "lo": 0.936,
+   "hi": 0.993,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "openai/gpt-oss-120b|ja": {
+   "auc": 0.936,
+   "lo": 0.888,
+   "hi": 0.975,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "openai/gpt-oss-120b|en_ind": {
+   "auc": 0.976,
+   "lo": 0.947,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "openai/gpt-oss-120b|ja_ind": {
+   "auc": 0.959,
+   "lo": 0.918,
+   "hi": 0.99,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "openai/gpt-oss-120b|ja_idiom": {
+   "auc": 0.94,
+   "lo": 0.895,
+   "hi": 0.977,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "openai/gpt-oss-120b|bt_ja": {
+   "auc": 0.967,
+   "lo": 0.933,
+   "hi": 0.993,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "openai/gpt-oss-120b|bt_ja_ind": {
+   "auc": 0.939,
+   "lo": 0.893,
+   "hi": 0.98,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "openai/gpt-oss-120b|bt_ja_idiom": {
+   "auc": 0.923,
+   "lo": 0.867,
+   "hi": 0.968,
+   "n_pos": 24,
+   "n_neg": 47
+  },
+  "zai-glm-5-3-flash|en": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 43
+  },
+  "zai-glm-5-3-flash|ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 43
+  },
+  "zai-glm-5-3-flash|en_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 43
+  },
+  "zai-glm-5-3-flash|ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 43
+  },
+  "zai-glm-5-3-flash|ja_idiom": {
+   "auc": 0.999,
+   "lo": 0.996,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 43
+  },
+  "zai-glm-5-3-flash|bt_ja": {
+   "auc": 1.0,
+   "lo": 0.997,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 43
+  },
+  "zai-glm-5-3-flash|bt_ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 43
+  },
+  "zai-glm-5-3-flash|bt_ja_idiom": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 43
+  }
+ },
+ "paired_vs_en": {
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|en_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|ja_ind": {
+   "diff": -0.011,
+   "lo": -0.033,
+   "hi": 0.0
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|ja_idiom": {
+   "diff": -0.002,
+   "lo": -0.007,
+   "hi": 0.0
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|bt_ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|bt_ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|bt_ja_idiom": {
+   "diff": -0.011,
+   "lo": -0.03,
+   "hi": 0.0
+  },
+  "google/gemma-4-31B-it|ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "google/gemma-4-31B-it|en_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "google/gemma-4-31B-it|ja_ind": {
+   "diff": -0.011,
+   "lo": -0.032,
+   "hi": 0.0
+  },
+  "google/gemma-4-31B-it|ja_idiom": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "google/gemma-4-31B-it|bt_ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "google/gemma-4-31B-it|bt_ja_ind": {
+   "diff": -0.011,
+   "lo": -0.032,
+   "hi": 0.0
+  },
+  "google/gemma-4-31B-it|bt_ja_idiom": {
+   "diff": -0.011,
+   "lo": -0.032,
+   "hi": 0.0
+  },
+  "ministral-8b-2512|ja": {
+   "diff": -0.002,
+   "lo": -0.038,
+   "hi": 0.034
+  },
+  "ministral-8b-2512|en_ind": {
+   "diff": 0.031,
+   "lo": 0.009,
+   "hi": 0.062
+  },
+  "ministral-8b-2512|ja_ind": {
+   "diff": 0.012,
+   "lo": -0.024,
+   "hi": 0.047
+  },
+  "ministral-8b-2512|ja_idiom": {
+   "diff": -0.043,
+   "lo": -0.098,
+   "hi": 0.006
+  },
+  "ministral-8b-2512|bt_ja": {
+   "diff": -0.002,
+   "lo": -0.027,
+   "hi": 0.022
+  },
+  "ministral-8b-2512|bt_ja_ind": {
+   "diff": 0.031,
+   "lo": 0.009,
+   "hi": 0.062
+  },
+  "ministral-8b-2512|bt_ja_idiom": {
+   "diff": -0.027,
+   "lo": -0.072,
+   "hi": 0.015
+  },
+  "mistral-small-2603|ja": {
+   "diff": 0.002,
+   "lo": -0.051,
+   "hi": 0.055
+  },
+  "mistral-small-2603|en_ind": {
+   "diff": -0.076,
+   "lo": -0.129,
+   "hi": -0.032
+  },
+  "mistral-small-2603|ja_ind": {
+   "diff": -0.066,
+   "lo": -0.115,
+   "hi": -0.025
+  },
+  "mistral-small-2603|ja_idiom": {
+   "diff": -0.055,
+   "lo": -0.113,
+   "hi": 0.002
+  },
+  "mistral-small-2603|bt_ja": {
+   "diff": -0.015,
+   "lo": -0.08,
+   "hi": 0.047
+  },
+  "mistral-small-2603|bt_ja_ind": {
+   "diff": -0.065,
+   "lo": -0.119,
+   "hi": -0.016
+  },
+  "mistral-small-2603|bt_ja_idiom": {
+   "diff": -0.066,
+   "lo": -0.121,
+   "hi": -0.018
+  },
+  "openai/gpt-oss-120b|ja": {
+   "diff": -0.033,
+   "lo": -0.066,
+   "hi": -0.007
+  },
+  "openai/gpt-oss-120b|en_ind": {
+   "diff": 0.007,
+   "lo": -0.024,
+   "hi": 0.039
+  },
+  "openai/gpt-oss-120b|ja_ind": {
+   "diff": -0.01,
+   "lo": -0.043,
+   "hi": 0.021
+  },
+  "openai/gpt-oss-120b|ja_idiom": {
+   "diff": -0.029,
+   "lo": -0.066,
+   "hi": 0.0
+  },
+  "openai/gpt-oss-120b|bt_ja": {
+   "diff": -0.002,
+   "lo": -0.028,
+   "hi": 0.022
+  },
+  "openai/gpt-oss-120b|bt_ja_ind": {
+   "diff": -0.03,
+   "lo": -0.072,
+   "hi": 0.009
+  },
+  "openai/gpt-oss-120b|bt_ja_idiom": {
+   "diff": -0.046,
+   "lo": -0.098,
+   "hi": -0.008
+  },
+  "zai-glm-5-3-flash|ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "zai-glm-5-3-flash|en_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "zai-glm-5-3-flash|ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "zai-glm-5-3-flash|ja_idiom": {
+   "diff": -0.001,
+   "lo": -0.004,
+   "hi": 0.0
+  },
+  "zai-glm-5-3-flash|bt_ja": {
+   "diff": -0.0,
+   "lo": -0.003,
+   "hi": 0.0
+  },
+  "zai-glm-5-3-flash|bt_ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "zai-glm-5-3-flash|bt_ja_idiom": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  }
+ },
+ "threshold_en": {
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017": 90.0,
+  "google/gemma-4-31B-it": 30.0,
+  "ministral-8b-2512": 100.0,
+  "mistral-small-2603": 100.0,
+  "openai/gpt-oss-120b": 98.0,
+  "zai-glm-5-3-flash": 20.0
+ },
+ "rates": {
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|en": {
+   "tpr": 1.0,
+   "fpr": 0.085,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.174
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|ja": {
+   "tpr": 1.0,
+   "fpr": 0.085,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.174
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|en_ind": {
+   "tpr": 1.0,
+   "fpr": 0.17,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.348
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.106,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.217
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.128,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.261
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|bt_ja": {
+   "tpr": 1.0,
+   "fpr": 0.064,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.13
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|bt_ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.149,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.304
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|bt_ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.149,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.304
+  },
+  "google/gemma-4-31B-it|en": {
+   "tpr": 1.0,
+   "fpr": 0.064,
+   "fpr_benign": 0.042,
+   "fpr_hardneg": 0.087
+  },
+  "google/gemma-4-31B-it|ja": {
+   "tpr": 1.0,
+   "fpr": 0.149,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.304
+  },
+  "google/gemma-4-31B-it|en_ind": {
+   "tpr": 1.0,
+   "fpr": 0.213,
+   "fpr_benign": 0.042,
+   "fpr_hardneg": 0.391
+  },
+  "google/gemma-4-31B-it|ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.298,
+   "fpr_benign": 0.042,
+   "fpr_hardneg": 0.565
+  },
+  "google/gemma-4-31B-it|ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.191,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.391
+  },
+  "google/gemma-4-31B-it|bt_ja": {
+   "tpr": 1.0,
+   "fpr": 0.064,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.13
+  },
+  "google/gemma-4-31B-it|bt_ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.277,
+   "fpr_benign": 0.042,
+   "fpr_hardneg": 0.522
+  },
+  "google/gemma-4-31B-it|bt_ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.213,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.435
+  },
+  "ministral-8b-2512|en": {
+   "tpr": 0.583,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "ministral-8b-2512|ja": {
+   "tpr": 0.375,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "ministral-8b-2512|en_ind": {
+   "tpr": 0.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "ministral-8b-2512|ja_ind": {
+   "tpr": 0.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "ministral-8b-2512|ja_idiom": {
+   "tpr": 0.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "ministral-8b-2512|bt_ja": {
+   "tpr": 0.375,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "ministral-8b-2512|bt_ja_ind": {
+   "tpr": 0.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "ministral-8b-2512|bt_ja_idiom": {
+   "tpr": 0.083,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "mistral-small-2603|en": {
+   "tpr": 0.292,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "mistral-small-2603|ja": {
+   "tpr": 0.25,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "mistral-small-2603|en_ind": {
+   "tpr": 0.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "mistral-small-2603|ja_ind": {
+   "tpr": 0.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "mistral-small-2603|ja_idiom": {
+   "tpr": 0.167,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "mistral-small-2603|bt_ja": {
+   "tpr": 0.25,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "mistral-small-2603|bt_ja_ind": {
+   "tpr": 0.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "mistral-small-2603|bt_ja_idiom": {
+   "tpr": 0.083,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "openai/gpt-oss-120b|en": {
+   "tpr": 0.417,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "openai/gpt-oss-120b|ja": {
+   "tpr": 0.25,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "openai/gpt-oss-120b|en_ind": {
+   "tpr": 0.25,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "openai/gpt-oss-120b|ja_ind": {
+   "tpr": 0.042,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "openai/gpt-oss-120b|ja_idiom": {
+   "tpr": 0.375,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "openai/gpt-oss-120b|bt_ja": {
+   "tpr": 0.375,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "openai/gpt-oss-120b|bt_ja_ind": {
+   "tpr": 0.042,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "openai/gpt-oss-120b|bt_ja_idiom": {
+   "tpr": 0.375,
+   "fpr": 0.021,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.043
+  },
+  "zai-glm-5-3-flash|en": {
+   "tpr": 1.0,
+   "fpr": 0.093,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.211
+  },
+  "zai-glm-5-3-flash|ja": {
+   "tpr": 1.0,
+   "fpr": 0.14,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.316
+  },
+  "zai-glm-5-3-flash|en_ind": {
+   "tpr": 1.0,
+   "fpr": 0.326,
+   "fpr_benign": 0.042,
+   "fpr_hardneg": 0.684
+  },
+  "zai-glm-5-3-flash|ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.256,
+   "fpr_benign": 0.042,
+   "fpr_hardneg": 0.526
+  },
+  "zai-glm-5-3-flash|ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.302,
+   "fpr_benign": 0.083,
+   "fpr_hardneg": 0.579
+  },
+  "zai-glm-5-3-flash|bt_ja": {
+   "tpr": 1.0,
+   "fpr": 0.163,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.368
+  },
+  "zai-glm-5-3-flash|bt_ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.349,
+   "fpr_benign": 0.125,
+   "fpr_hardneg": 0.632
+  },
+  "zai-glm-5-3-flash|bt_ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.256,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.579
+  }
+ },
+ "recovery": {
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|ja": 0.0,
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|ja_ind": 0.011,
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017|ja_idiom": -0.009,
+  "google/gemma-4-31B-it|ja": 0.0,
+  "google/gemma-4-31B-it|ja_ind": 0.0,
+  "google/gemma-4-31B-it|ja_idiom": -0.011,
+  "ministral-8b-2512|ja": 0.0,
+  "ministral-8b-2512|ja_ind": 0.02,
+  "ministral-8b-2512|ja_idiom": 0.015,
+  "mistral-small-2603|ja": -0.017,
+  "mistral-small-2603|ja_ind": 0.001,
+  "mistral-small-2603|ja_idiom": -0.011,
+  "openai/gpt-oss-120b|ja": 0.031,
+  "openai/gpt-oss-120b|ja_ind": -0.02,
+  "openai/gpt-oss-120b|ja_idiom": -0.017,
+  "zai-glm-5-3-flash|ja": 0.0,
+  "zai-glm-5-3-flash|ja_ind": 0.0,
+  "zai-glm-5-3-flash|ja_idiom": 0.001
+ },
+ "price_control": {
+  "collude": {
+   "n": 24,
+   "mean": 32.4,
+   "sd": 3.07
+  },
+  "benign": {
+   "n": 24,
+   "mean": 22.22,
+   "sd": 1.02
+  },
+  "hardneg": {
+   "n": 24,
+   "mean": 14.81,
+   "sd": 3.25
+  }
+ }
+}

@@ -1,0 +1,290 @@
+[
+ {
+  "transcript": "Q15",
+  "variant": "en_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q15",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q16",
+  "variant": "en_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q16",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q17",
+  "variant": "ja",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q17",
+  "variant": "en_ind",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q17",
+  "variant": "ja_ind",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q17",
+  "variant": "ja_idiom",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q17",
+  "variant": "en_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q17",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q18",
+  "variant": "ja",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q18",
+  "variant": "en_ind",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q18",
+  "variant": "ja_ind",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q18",
+  "variant": "ja_idiom",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q18",
+  "variant": "en_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q18",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q19",
+  "variant": "en_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q19",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q20",
+  "variant": "ja",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q20",
+  "variant": "en_ind",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q20",
+  "variant": "ja_ind",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q20",
+  "variant": "ja_idiom",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q20",
+  "variant": "en_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q20",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q21",
+  "variant": "en_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q21",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q22",
+  "variant": "ja",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q22",
+  "variant": "en_ind",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q22",
+  "variant": "ja_ind",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q22",
+  "variant": "ja_idiom",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q22",
+  "variant": "en_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q22",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q23",
+  "variant": "ja",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q23",
+  "variant": "en_ind",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q23",
+  "variant": "ja_ind",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q23",
+  "variant": "ja_idiom",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q23",
+  "variant": "en_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q23",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q24",
+  "variant": "en_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q24",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q25",
+  "variant": "en_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q25",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q26",
+  "variant": "en_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q26",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q27",
+  "variant": "en_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q27",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q28",
+  "variant": "en_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q28",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ }
+]

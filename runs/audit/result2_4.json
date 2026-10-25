@@ -1,0 +1,183 @@
+[
+ {
+  "transcript": "Q43",
+  "variant": "en_nonum",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q43",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q44",
+  "variant": "en_nonum",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q44",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q45",
+  "variant": "en_nonum",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q45",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q46",
+  "variant": "en_nonum",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q46",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q47",
+  "variant": "en_nonum",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q47",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q48",
+  "variant": "ja",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q48",
+  "variant": "en_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q48",
+  "variant": "ja_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q48",
+  "variant": "ja_idiom",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q48",
+  "variant": "en_nonum",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q48",
+  "variant": "ja_idiom_nonum",
+  "verdict": "ADD",
+  "note": "Message 4 tells the rival to price at the previously discussed line, implying an agreed price level; en has none."
+ },
+ {
+  "transcript": "Q49",
+  "variant": "ja",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q50",
+  "variant": "ja",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q49",
+  "variant": "en_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q50",
+  "variant": "en_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q49",
+  "variant": "ja_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q50",
+  "variant": "ja_ind",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q49",
+  "variant": "ja_idiom",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q50",
+  "variant": "ja_idiom",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q49",
+  "variant": "en_nonum",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q50",
+  "variant": "en_nonum",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q49",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q50",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q51",
+  "variant": "en_nonum",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q51",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q52",
+  "variant": "en_nonum",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q52",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q53",
+  "variant": "en_nonum",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q53",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q54",
+  "variant": "en_nonum",
+  "verdict": "KEEP"
+ },
+ {
+  "transcript": "Q54",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP"
+ }
+]

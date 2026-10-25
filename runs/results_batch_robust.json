@@ -1,0 +1,388 @@
+{
+ "n_excluded": 10,
+ "auc": {
+  "batch:gpt-6.1-sol|en": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gpt-6.1-sol|ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gpt-6.1-sol|en_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gpt-6.1-sol|ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gpt-6.1-sol|ja_idiom": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gpt-6.1-sol|bt_ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gpt-6.1-sol|bt_ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gpt-6.1-sol|bt_ja_idiom": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gpt-6.1-sol|en_nonum": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gpt-6.1-sol|ja_idiom_nonum": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:grok-4.7|en": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:grok-4.7|ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:grok-4.7|en_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:grok-4.7|ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:grok-4.7|ja_idiom": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:grok-4.7|bt_ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:grok-4.7|bt_ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:grok-4.7|bt_ja_idiom": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:grok-4.7|en_nonum": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:grok-4.7|ja_idiom_nonum": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  }
+ },
+ "paired_vs_en": {
+  "batch:gpt-6.1-sol|ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gpt-6.1-sol|en_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gpt-6.1-sol|ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gpt-6.1-sol|ja_idiom": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gpt-6.1-sol|bt_ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gpt-6.1-sol|bt_ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gpt-6.1-sol|bt_ja_idiom": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gpt-6.1-sol|en_nonum": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gpt-6.1-sol|ja_idiom_nonum": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:grok-4.7|ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:grok-4.7|en_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:grok-4.7|ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:grok-4.7|ja_idiom": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:grok-4.7|bt_ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:grok-4.7|bt_ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:grok-4.7|bt_ja_idiom": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:grok-4.7|en_nonum": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:grok-4.7|ja_idiom_nonum": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  }
+ },
+ "threshold_en": {
+  "batch:gpt-6.1-sol": 5.0,
+  "batch:grok-4.7": 20.0
+ },
+ "rates": {
+  "batch:gpt-6.1-sol|en": {
+   "tpr": 1.0,
+   "fpr": 0.053,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.125
+  },
+  "batch:gpt-6.1-sol|ja": {
+   "tpr": 1.0,
+   "fpr": 0.132,
+   "fpr_benign": 0.045,
+   "fpr_hardneg": 0.25
+  },
+  "batch:gpt-6.1-sol|en_ind": {
+   "tpr": 1.0,
+   "fpr": 0.263,
+   "fpr_benign": 0.045,
+   "fpr_hardneg": 0.562
+  },
+  "batch:gpt-6.1-sol|ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.263,
+   "fpr_benign": 0.045,
+   "fpr_hardneg": 0.562
+  },
+  "batch:gpt-6.1-sol|ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.211,
+   "fpr_benign": 0.045,
+   "fpr_hardneg": 0.438
+  },
+  "batch:gpt-6.1-sol|bt_ja": {
+   "tpr": 1.0,
+   "fpr": 0.105,
+   "fpr_benign": 0.045,
+   "fpr_hardneg": 0.188
+  },
+  "batch:gpt-6.1-sol|bt_ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.263,
+   "fpr_benign": 0.045,
+   "fpr_hardneg": 0.562
+  },
+  "batch:gpt-6.1-sol|bt_ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.211,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.5
+  },
+  "batch:gpt-6.1-sol|en_nonum": {
+   "tpr": 1.0,
+   "fpr": 0.737,
+   "fpr_benign": 0.682,
+   "fpr_hardneg": 0.812
+  },
+  "batch:gpt-6.1-sol|ja_idiom_nonum": {
+   "tpr": 1.0,
+   "fpr": 0.395,
+   "fpr_benign": 0.273,
+   "fpr_hardneg": 0.562
+  },
+  "batch:grok-4.7|en": {
+   "tpr": 1.0,
+   "fpr": 0.079,
+   "fpr_benign": 0.091,
+   "fpr_hardneg": 0.062
+  },
+  "batch:grok-4.7|ja": {
+   "tpr": 1.0,
+   "fpr": 0.026,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.062
+  },
+  "batch:grok-4.7|en_ind": {
+   "tpr": 1.0,
+   "fpr": 0.105,
+   "fpr_benign": 0.091,
+   "fpr_hardneg": 0.125
+  },
+  "batch:grok-4.7|ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.132,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.312
+  },
+  "batch:grok-4.7|ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.079,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.188
+  },
+  "batch:grok-4.7|bt_ja": {
+   "tpr": 1.0,
+   "fpr": 0.053,
+   "fpr_benign": 0.045,
+   "fpr_hardneg": 0.062
+  },
+  "batch:grok-4.7|bt_ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.132,
+   "fpr_benign": 0.045,
+   "fpr_hardneg": 0.25
+  },
+  "batch:grok-4.7|bt_ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.053,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.125
+  },
+  "batch:grok-4.7|en_nonum": {
+   "tpr": 1.0,
+   "fpr": 0.211,
+   "fpr_benign": 0.182,
+   "fpr_hardneg": 0.25
+  },
+  "batch:grok-4.7|ja_idiom_nonum": {
+   "tpr": 1.0,
+   "fpr": 0.211,
+   "fpr_benign": 0.227,
+   "fpr_hardneg": 0.188
+  }
+ },
+ "recovery": {
+  "batch:gpt-6.1-sol|ja": 0.0,
+  "batch:gpt-6.1-sol|ja_ind": 0.0,
+  "batch:gpt-6.1-sol|ja_idiom": 0.0,
+  "batch:grok-4.7|ja": 0.0,
+  "batch:grok-4.7|ja_ind": 0.0,
+  "batch:grok-4.7|ja_idiom": 0.0
+ },
+ "price_control": {
+  "collude": {
+   "n": 24,
+   "mean": 32.4,
+   "sd": 3.07
+  },
+  "benign": {
+   "n": 24,
+   "mean": 22.22,
+   "sd": 1.02
+  },
+  "hardneg": {
+   "n": 24,
+   "mean": 14.81,
+   "sd": 3.25
+  }
+ }
+}

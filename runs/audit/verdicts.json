@@ -1,0 +1,650 @@
+{
+ "col20": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "ben19": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "ben13": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col17": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col19": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har16": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col12": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col11": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col06": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col15": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col13": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "ben12": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col02": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col23": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har05": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "ben04": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col08": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col01": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col14": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col21": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col18": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har08": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col22": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "ben00": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col03": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har15": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col05": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "ben20": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col16": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col04": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col00": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col07": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har00": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col09": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "col10": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ },
+ "har10": {
+  "ja": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "en_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_ind": {
+   "verdict": "KEEP",
+   "note": ""
+  },
+  "ja_idiom": {
+   "verdict": "KEEP",
+   "note": ""
+  }
+ }
+}

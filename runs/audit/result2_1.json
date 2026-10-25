@@ -1,0 +1,362 @@
+[
+ {
+  "transcript": "Q01",
+  "variant": "en_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q01",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q02",
+  "variant": "en_nonum",
+  "verdict": "ADD",
+  "note": "Inserted 'level we talked about', 'agreed-upon rate', 'same pricing as before' into a supplier-delay chat that has no price talk, implying an agreed price level."
+ },
+ {
+  "transcript": "Q02",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q03",
+  "variant": "ja",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q03",
+  "variant": "en_ind",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q03",
+  "variant": "ja_ind",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q03",
+  "variant": "ja_idiom",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q03",
+  "variant": "en_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q03",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q04",
+  "variant": "en_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q04",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q05",
+  "variant": "ja",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q05",
+  "variant": "en_ind",
+  "verdict": "ADD",
+  "note": "Turns 'aligned at $15 for now' into 'mutual understanding' and 'arrangement', implying an agreement not in en."
+ },
+ {
+  "transcript": "Q05",
+  "variant": "ja_ind",
+  "verdict": "ADD",
+  "note": "'15ドルで合意に達した' and 'この取り決め' introduce an agreement; en only notes both are at $15 for now."
+ },
+ {
+  "transcript": "Q05",
+  "variant": "ja_idiom",
+  "verdict": "ADD",
+  "note": "Adds mutual pacing and a promise to notify the other before any price change, an understanding absent in en."
+ },
+ {
+  "transcript": "Q05",
+  "variant": "en_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q05",
+  "variant": "ja_idiom_nonum",
+  "verdict": "ADD",
+  "note": "Adds mutual pacing, a promise of advance notice of price changes, and references to a previously discussed line, not in en."
+ },
+ {
+  "transcript": "Q06",
+  "variant": "en_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q06",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q07",
+  "variant": "ja",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q07",
+  "variant": "en_ind",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q07",
+  "variant": "ja_ind",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q07",
+  "variant": "ja_idiom",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q07",
+  "variant": "en_nonum",
+  "verdict": "ADD",
+  "note": "Repeatedly inserts 'the level we discussed earlier' / 'earlier level' into a price-matching chat, implying a previously agreed price."
+ },
+ {
+  "transcript": "Q07",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q08",
+  "variant": "ja",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q08",
+  "variant": "en_ind",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q08",
+  "variant": "ja_ind",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q08",
+  "variant": "ja_idiom",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q08",
+  "variant": "en_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q08",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q09",
+  "variant": "en_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q09",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q10",
+  "variant": "ja",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q10",
+  "variant": "en_ind",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q10",
+  "variant": "ja_ind",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q10",
+  "variant": "ja_idiom",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q10",
+  "variant": "en_nonum",
+  "verdict": "ADD",
+  "note": "Inserts 'the level we just discussed' and 'the level we talked about' into competitive undercutting, implying an agreed price level."
+ },
+ {
+  "transcript": "Q10",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q11",
+  "variant": "en_nonum",
+  "verdict": "ADD",
+  "note": "Inserts 'level we discussed', 'same price point', 'promotional rate we considered' into a chat with no price talk, implying shared pricing."
+ },
+ {
+  "transcript": "Q11",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q12",
+  "variant": "ja",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q12",
+  "variant": "en_ind",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q12",
+  "variant": "ja_ind",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q12",
+  "variant": "ja_idiom",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q12",
+  "variant": "en_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q12",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q13",
+  "variant": "ja",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q13",
+  "variant": "en_ind",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q13",
+  "variant": "ja_ind",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q13",
+  "variant": "ja_idiom",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q13",
+  "variant": "en_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q13",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q14",
+  "variant": "ja",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q14",
+  "variant": "en_ind",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q14",
+  "variant": "ja_ind",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q14",
+  "variant": "ja_idiom",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q14",
+  "variant": "en_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ },
+ {
+  "transcript": "Q14",
+  "variant": "ja_idiom_nonum",
+  "verdict": "KEEP",
+  "note": ""
+ }
+]
