@@ -135,9 +135,9 @@ def main():
         "nonum_auc": auc_table(non, ["en", "en_nonum", "ja_idiom", "ja_idiom_nonum"]),
         "nonum_fprh": rate_table(non, ["en", "en_nonum", "ja_idiom", "ja_idiom_nonum"], "fpr_hardneg"),
         "nonum_tpr": rate_table(non, ["en", "en_nonum", "ja_idiom", "ja_idiom_nonum"], "tpr"),
-        "batch_auc": auc_table(bat, PRIMARY + ["en_nonum", "ja_idiom_nonum"]),
-        "batch_fprh": rate_table(bat, PRIMARY + ["en_nonum", "ja_idiom_nonum"], "fpr_hardneg"),
-        "batch_tpr": rate_table(bat, PRIMARY + ["en_nonum", "ja_idiom_nonum"], "tpr"),
+        "batch_auc": auc_table(bat, PRIMARY),
+        "batch_fprh": rate_table(bat, PRIMARY, "fpr_hardneg"),
+        "batch_tpr": rate_table(bat, PRIMARY, "tpr"),
     }
     (REP / "tables.md").write_text("\n\n".join(f"### {k}\n\n{v}" for k, v in T.items()) + "\n")
     src = (REP / "report.md").read_text()

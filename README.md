@@ -20,6 +20,8 @@ The question: does an LLM collusion monitor whose prompt and threshold are fixed
 | `code/explore.py`, `code/make_tables.py` | Exploratory class means and per-class AUC; report tables |
 | `code/batch_audit.py` | Secondary experiment: batch auditors, one call per view (GPT-6.1 Sol and Grok 4.7 pre-registered; Claude, GPT-6 Astra, Gemini, Mistral Large 4, GLM-5.3, DeepSeek V4 Pro and Kimi K3 added post hoc) |
 | `code/run_more_auditors.py`, `code/run_more_api.py` | Runners for the eleven post hoc batch auditors |
+| `code/run_detour.py` | Re-runs of the stalled or empty batch calls (Mistral Large 4, Gemini 3.8 Flash) |
+| `code/recalibrate.py` | Post hoc: thresholds re-fixed on each view's negatives, the English midpoint threshold, and AUC against hard negatives only (Appendix D, Tables 6-8) |
 | `code/audit_packets.py` | Meaning-preservation audit packets (neutral labels) and the merge of verdicts |
 | `code/analyze.py`, `code/fig.py` | AUC with stratified bootstrap, paired differences, thresholded rates, figures |
 | `code/build_report.py` | Fills the official sprint template (.docx) from Markdown and exports PDF |

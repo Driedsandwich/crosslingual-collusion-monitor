@@ -16,6 +16,7 @@ $PY $H/analyze.py --scores $R/monitor_scores_all.jsonl --exclude $A/exclude_nonu
 $PY $H/analyze.py --scores $R/batch_scores.jsonl --out $R/results_batch.json > /dev/null
 $PY $H/analyze.py --scores $R/batch_scores.jsonl --exclude $A/exclude_nonum_all.txt --out $R/results_batch_robust.json > /dev/null
 $PY $H/explore.py $R/monitor_scores_all.jsonl $R/explore.json > /dev/null
+$PY $H/recalibrate.py > /dev/null   # post hoc: in-view recalibration and the English midpoint threshold (Tables 6-8)
 $PY $H/explore.py $R/batch_scores.jsonl $R/explore_batch.json > /dev/null
 mkdir -p $H/../report
 $PY $H/fig.py $R/results.json $H/../report/fig_main.png

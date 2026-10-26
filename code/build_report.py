@@ -171,7 +171,7 @@ def main(md_path, out_docx):
             d.add_paragraph(l[4:], style="Heading 3")
         elif l.startswith("!["):
             m = re.match(r"!\[(.*)\]\((.*)\)", l)
-            d.add_picture(str((Path(md_path).parent / m.group(2)).resolve()), width=Inches(6.2))
+            d.add_picture(str((Path(md_path).parent / m.group(2)).resolve()), width=Inches(5.9))
             cap = d.add_paragraph()
             add_runs(cap, m.group(1))
             for r in cap.runs:

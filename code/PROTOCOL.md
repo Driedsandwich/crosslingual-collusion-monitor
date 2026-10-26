@@ -101,3 +101,6 @@ re-run on `google/gemini-3.8-flash` through OpenRouter at medium reasoning and f
 - Noted 2026-10-26 17:5x JST (found by a reviewer model): the bootstrap in `analyze.py` redraws the collusive and the negative
   transcripts separately, as two strata; benign and hard negatives are not redrawn separately. "Stratified by class" above should
   be read as this two-group scheme, which was the implemented analysis throughout.
+- Noted 2026-10-26 18:3x JST (raised by reviewer models): the title line "frozen before any monitor output was inspected" refers to the
+  main scoring run. The nine pre-run test calls listed above returned scores that were seen before freezing; they are excluded from all
+  results.
