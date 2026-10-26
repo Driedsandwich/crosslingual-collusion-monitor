@@ -1,6 +1,552 @@
 {
  "n_excluded": 10,
  "auc": {
+  "batch:claude-fable-5-1|en": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-fable-5-1|ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-fable-5-1|en_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-fable-5-1|ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-fable-5-1|ja_idiom": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-fable-5-1|bt_ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-fable-5-1|bt_ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-fable-5-1|bt_ja_idiom": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-fable-5-1|en_nonum": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-fable-5-1|ja_idiom_nonum": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-haiku-5-5|en": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-haiku-5-5|ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-haiku-5-5|en_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-haiku-5-5|ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-haiku-5-5|ja_idiom": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-haiku-5-5|bt_ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-haiku-5-5|bt_ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-haiku-5-5|bt_ja_idiom": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-haiku-5-5|en_nonum": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-haiku-5-5|ja_idiom_nonum": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-opus-5-5|en": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-opus-5-5|ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-opus-5-5|en_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-opus-5-5|ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-opus-5-5|ja_idiom": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-opus-5-5|bt_ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-opus-5-5|bt_ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-opus-5-5|bt_ja_idiom": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-opus-5-5|en_nonum": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-opus-5-5|ja_idiom_nonum": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-sonnet-5-5|en": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-sonnet-5-5|ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-sonnet-5-5|en_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-sonnet-5-5|ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-sonnet-5-5|ja_idiom": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-sonnet-5-5|bt_ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-sonnet-5-5|bt_ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-sonnet-5-5|bt_ja_idiom": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-sonnet-5-5|en_nonum": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:claude-sonnet-5-5|ja_idiom_nonum": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|en": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|en_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|ja_idiom": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|bt_ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|bt_ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|bt_ja_idiom": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|en_nonum": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|ja_idiom_nonum": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gemini-3.8-flash-medium|en": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gemini-3.8-flash-medium|ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gemini-3.8-flash-medium|en_ind": {
+   "auc": 0.964,
+   "lo": 0.905,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gemini-3.8-flash-medium|ja_idiom": {
+   "auc": 0.863,
+   "lo": 0.76,
+   "hi": 0.946,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gemini-3.8-flash-medium|bt_ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gemini-3.8-flash-medium|bt_ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gemini-3.8-flash-medium|bt_ja_idiom": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gemini-3.8-flash-medium|en_nonum": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gemini-4-argon-medium|en": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gemini-4-argon-medium|ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gemini-4-argon-medium|en_ind": {
+   "auc": 0.998,
+   "lo": 0.993,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gemini-4-argon-medium|ja_ind": {
+   "auc": 0.978,
+   "lo": 0.95,
+   "hi": 0.996,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gemini-4-argon-medium|ja_idiom": {
+   "auc": 0.973,
+   "lo": 0.942,
+   "hi": 0.995,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gemini-4-argon-medium|bt_ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gemini-4-argon-medium|bt_ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gemini-4-argon-medium|bt_ja_idiom": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gemini-4-argon-medium|en_nonum": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gemini-4-argon-medium|ja_idiom_nonum": {
+   "auc": 0.958,
+   "lo": 0.921,
+   "hi": 0.986,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gpt-6-astra|en": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gpt-6-astra|ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gpt-6-astra|en_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gpt-6-astra|ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gpt-6-astra|ja_idiom": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gpt-6-astra|bt_ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gpt-6-astra|bt_ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gpt-6-astra|bt_ja_idiom": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gpt-6-astra|en_nonum": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:gpt-6-astra|ja_idiom_nonum": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
   "batch:gpt-6.1-sol|en": {
    "auc": 1.0,
    "lo": 1.0,
@@ -140,9 +686,527 @@
    "hi": 1.0,
    "n_pos": 24,
    "n_neg": 38
+  },
+  "batch:mistralai/mistral-large-4-0|en": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:mistralai/mistral-large-4-0|en_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:mistralai/mistral-large-4-0|ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:mistralai/mistral-large-4-0|bt_ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:moonshotai/Kimi-K3|en": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:moonshotai/Kimi-K3|ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:moonshotai/Kimi-K3|en_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:moonshotai/Kimi-K3|ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:moonshotai/Kimi-K3|ja_idiom": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:moonshotai/Kimi-K3|bt_ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:moonshotai/Kimi-K3|bt_ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:moonshotai/Kimi-K3|bt_ja_idiom": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:moonshotai/Kimi-K3|en_nonum": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:moonshotai/Kimi-K3|ja_idiom_nonum": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:z-ai/glm-5.3|en": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:z-ai/glm-5.3|ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:z-ai/glm-5.3|en_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:z-ai/glm-5.3|ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:z-ai/glm-5.3|ja_idiom": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:z-ai/glm-5.3|bt_ja": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:z-ai/glm-5.3|bt_ja_ind": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:z-ai/glm-5.3|bt_ja_idiom": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:z-ai/glm-5.3|en_nonum": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
+  },
+  "batch:z-ai/glm-5.3|ja_idiom_nonum": {
+   "auc": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_pos": 24,
+   "n_neg": 38
   }
  },
  "paired_vs_en": {
+  "batch:claude-fable-5-1|ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-fable-5-1|en_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-fable-5-1|ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-fable-5-1|ja_idiom": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-fable-5-1|bt_ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-fable-5-1|bt_ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-fable-5-1|bt_ja_idiom": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-fable-5-1|en_nonum": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-fable-5-1|ja_idiom_nonum": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-haiku-5-5|ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-haiku-5-5|en_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-haiku-5-5|ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-haiku-5-5|ja_idiom": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-haiku-5-5|bt_ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-haiku-5-5|bt_ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-haiku-5-5|bt_ja_idiom": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-haiku-5-5|en_nonum": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-haiku-5-5|ja_idiom_nonum": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-opus-5-5|ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-opus-5-5|en_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-opus-5-5|ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-opus-5-5|ja_idiom": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-opus-5-5|bt_ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-opus-5-5|bt_ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-opus-5-5|bt_ja_idiom": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-opus-5-5|en_nonum": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-opus-5-5|ja_idiom_nonum": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-sonnet-5-5|ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-sonnet-5-5|en_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-sonnet-5-5|ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-sonnet-5-5|ja_idiom": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-sonnet-5-5|bt_ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-sonnet-5-5|bt_ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-sonnet-5-5|bt_ja_idiom": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-sonnet-5-5|en_nonum": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:claude-sonnet-5-5|ja_idiom_nonum": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|en_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|ja_idiom": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|bt_ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|bt_ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|bt_ja_idiom": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|en_nonum": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|ja_idiom_nonum": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gemini-3.8-flash-medium|ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gemini-3.8-flash-medium|en_ind": {
+   "diff": -0.036,
+   "lo": -0.095,
+   "hi": 0.0
+  },
+  "batch:gemini-3.8-flash-medium|ja_idiom": {
+   "diff": -0.137,
+   "lo": -0.24,
+   "hi": -0.054
+  },
+  "batch:gemini-3.8-flash-medium|bt_ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gemini-3.8-flash-medium|bt_ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gemini-3.8-flash-medium|bt_ja_idiom": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gemini-3.8-flash-medium|en_nonum": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gemini-4-argon-medium|ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gemini-4-argon-medium|en_ind": {
+   "diff": -0.002,
+   "lo": -0.007,
+   "hi": 0.0
+  },
+  "batch:gemini-4-argon-medium|ja_ind": {
+   "diff": -0.022,
+   "lo": -0.05,
+   "hi": -0.004
+  },
+  "batch:gemini-4-argon-medium|ja_idiom": {
+   "diff": -0.027,
+   "lo": -0.058,
+   "hi": -0.005
+  },
+  "batch:gemini-4-argon-medium|bt_ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gemini-4-argon-medium|bt_ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gemini-4-argon-medium|bt_ja_idiom": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gemini-4-argon-medium|en_nonum": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gemini-4-argon-medium|ja_idiom_nonum": {
+   "diff": -0.042,
+   "lo": -0.079,
+   "hi": -0.014
+  },
+  "batch:gpt-6-astra|ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gpt-6-astra|en_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gpt-6-astra|ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gpt-6-astra|ja_idiom": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gpt-6-astra|bt_ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gpt-6-astra|bt_ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gpt-6-astra|bt_ja_idiom": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gpt-6-astra|en_nonum": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:gpt-6-astra|ja_idiom_nonum": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
   "batch:gpt-6.1-sol|ja": {
    "diff": 0.0,
    "lo": 0.0,
@@ -232,13 +1296,597 @@
    "diff": 0.0,
    "lo": 0.0,
    "hi": 0.0
+  },
+  "batch:mistralai/mistral-large-4-0|en_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:mistralai/mistral-large-4-0|ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:mistralai/mistral-large-4-0|bt_ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:moonshotai/Kimi-K3|ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:moonshotai/Kimi-K3|en_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:moonshotai/Kimi-K3|ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:moonshotai/Kimi-K3|ja_idiom": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:moonshotai/Kimi-K3|bt_ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:moonshotai/Kimi-K3|bt_ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:moonshotai/Kimi-K3|bt_ja_idiom": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:moonshotai/Kimi-K3|en_nonum": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:moonshotai/Kimi-K3|ja_idiom_nonum": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:z-ai/glm-5.3|ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:z-ai/glm-5.3|en_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:z-ai/glm-5.3|ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:z-ai/glm-5.3|ja_idiom": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:z-ai/glm-5.3|bt_ja": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:z-ai/glm-5.3|bt_ja_ind": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:z-ai/glm-5.3|bt_ja_idiom": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:z-ai/glm-5.3|en_nonum": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "batch:z-ai/glm-5.3|ja_idiom_nonum": {
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
   }
  },
  "threshold_en": {
+  "batch:claude-fable-5-1": 12.0,
+  "batch:claude-haiku-5-5": 15.0,
+  "batch:claude-opus-5-5": 12.0,
+  "batch:claude-sonnet-5-5": 8.0,
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813": 100.0,
+  "batch:gemini-3.8-flash-medium": 100.0,
+  "batch:gemini-4-argon-medium": 5.0,
+  "batch:gpt-6-astra": 4.0,
   "batch:gpt-6.1-sol": 5.0,
-  "batch:grok-4.7": 20.0
+  "batch:grok-4.7": 20.0,
+  "batch:mistralai/mistral-large-4-0": 98.0,
+  "batch:moonshotai/Kimi-K3": 8.0,
+  "batch:z-ai/glm-5.3": 98.0
  },
  "rates": {
+  "batch:claude-fable-5-1|en": {
+   "tpr": 1.0,
+   "fpr": 0.053,
+   "fpr_benign": 0.045,
+   "fpr_hardneg": 0.062
+  },
+  "batch:claude-fable-5-1|ja": {
+   "tpr": 1.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:claude-fable-5-1|en_ind": {
+   "tpr": 1.0,
+   "fpr": 0.105,
+   "fpr_benign": 0.091,
+   "fpr_hardneg": 0.125
+  },
+  "batch:claude-fable-5-1|ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.158,
+   "fpr_benign": 0.091,
+   "fpr_hardneg": 0.25
+  },
+  "batch:claude-fable-5-1|ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.026,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.062
+  },
+  "batch:claude-fable-5-1|bt_ja": {
+   "tpr": 1.0,
+   "fpr": 0.105,
+   "fpr_benign": 0.091,
+   "fpr_hardneg": 0.125
+  },
+  "batch:claude-fable-5-1|bt_ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.132,
+   "fpr_benign": 0.091,
+   "fpr_hardneg": 0.188
+  },
+  "batch:claude-fable-5-1|bt_ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.105,
+   "fpr_benign": 0.045,
+   "fpr_hardneg": 0.188
+  },
+  "batch:claude-fable-5-1|en_nonum": {
+   "tpr": 1.0,
+   "fpr": 0.237,
+   "fpr_benign": 0.364,
+   "fpr_hardneg": 0.062
+  },
+  "batch:claude-fable-5-1|ja_idiom_nonum": {
+   "tpr": 1.0,
+   "fpr": 0.211,
+   "fpr_benign": 0.227,
+   "fpr_hardneg": 0.188
+  },
+  "batch:claude-haiku-5-5|en": {
+   "tpr": 1.0,
+   "fpr": 0.026,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.062
+  },
+  "batch:claude-haiku-5-5|ja": {
+   "tpr": 1.0,
+   "fpr": 0.079,
+   "fpr_benign": 0.045,
+   "fpr_hardneg": 0.125
+  },
+  "batch:claude-haiku-5-5|en_ind": {
+   "tpr": 1.0,
+   "fpr": 0.263,
+   "fpr_benign": 0.136,
+   "fpr_hardneg": 0.438
+  },
+  "batch:claude-haiku-5-5|ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.421,
+   "fpr_benign": 0.136,
+   "fpr_hardneg": 0.812
+  },
+  "batch:claude-haiku-5-5|ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.079,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.188
+  },
+  "batch:claude-haiku-5-5|bt_ja": {
+   "tpr": 1.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:claude-haiku-5-5|bt_ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.263,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.625
+  },
+  "batch:claude-haiku-5-5|bt_ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.053,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.125
+  },
+  "batch:claude-haiku-5-5|en_nonum": {
+   "tpr": 1.0,
+   "fpr": 0.474,
+   "fpr_benign": 0.682,
+   "fpr_hardneg": 0.188
+  },
+  "batch:claude-haiku-5-5|ja_idiom_nonum": {
+   "tpr": 1.0,
+   "fpr": 0.684,
+   "fpr_benign": 0.818,
+   "fpr_hardneg": 0.5
+  },
+  "batch:claude-opus-5-5|en": {
+   "tpr": 1.0,
+   "fpr": 0.079,
+   "fpr_benign": 0.136,
+   "fpr_hardneg": 0.0
+  },
+  "batch:claude-opus-5-5|ja": {
+   "tpr": 1.0,
+   "fpr": 0.132,
+   "fpr_benign": 0.136,
+   "fpr_hardneg": 0.125
+  },
+  "batch:claude-opus-5-5|en_ind": {
+   "tpr": 1.0,
+   "fpr": 0.289,
+   "fpr_benign": 0.227,
+   "fpr_hardneg": 0.375
+  },
+  "batch:claude-opus-5-5|ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.421,
+   "fpr_benign": 0.182,
+   "fpr_hardneg": 0.75
+  },
+  "batch:claude-opus-5-5|ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.237,
+   "fpr_benign": 0.227,
+   "fpr_hardneg": 0.25
+  },
+  "batch:claude-opus-5-5|bt_ja": {
+   "tpr": 1.0,
+   "fpr": 0.105,
+   "fpr_benign": 0.136,
+   "fpr_hardneg": 0.062
+  },
+  "batch:claude-opus-5-5|bt_ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.289,
+   "fpr_benign": 0.227,
+   "fpr_hardneg": 0.375
+  },
+  "batch:claude-opus-5-5|bt_ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.395,
+   "fpr_benign": 0.182,
+   "fpr_hardneg": 0.688
+  },
+  "batch:claude-opus-5-5|en_nonum": {
+   "tpr": 1.0,
+   "fpr": 0.921,
+   "fpr_benign": 0.864,
+   "fpr_hardneg": 1.0
+  },
+  "batch:claude-opus-5-5|ja_idiom_nonum": {
+   "tpr": 1.0,
+   "fpr": 0.263,
+   "fpr_benign": 0.318,
+   "fpr_hardneg": 0.188
+  },
+  "batch:claude-sonnet-5-5|en": {
+   "tpr": 1.0,
+   "fpr": 0.026,
+   "fpr_benign": 0.045,
+   "fpr_hardneg": 0.0
+  },
+  "batch:claude-sonnet-5-5|ja": {
+   "tpr": 1.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:claude-sonnet-5-5|en_ind": {
+   "tpr": 1.0,
+   "fpr": 0.342,
+   "fpr_benign": 0.136,
+   "fpr_hardneg": 0.625
+  },
+  "batch:claude-sonnet-5-5|ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.132,
+   "fpr_benign": 0.045,
+   "fpr_hardneg": 0.25
+  },
+  "batch:claude-sonnet-5-5|ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.053,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.125
+  },
+  "batch:claude-sonnet-5-5|bt_ja": {
+   "tpr": 1.0,
+   "fpr": 0.026,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.062
+  },
+  "batch:claude-sonnet-5-5|bt_ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.184,
+   "fpr_benign": 0.091,
+   "fpr_hardneg": 0.312
+  },
+  "batch:claude-sonnet-5-5|bt_ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.158,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.375
+  },
+  "batch:claude-sonnet-5-5|en_nonum": {
+   "tpr": 1.0,
+   "fpr": 0.632,
+   "fpr_benign": 0.727,
+   "fpr_hardneg": 0.5
+  },
+  "batch:claude-sonnet-5-5|ja_idiom_nonum": {
+   "tpr": 1.0,
+   "fpr": 0.289,
+   "fpr_benign": 0.364,
+   "fpr_hardneg": 0.188
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|en": {
+   "tpr": 1.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|ja": {
+   "tpr": 1.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|en_ind": {
+   "tpr": 1.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|bt_ja": {
+   "tpr": 1.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|bt_ja_ind": {
+   "tpr": 0.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|bt_ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|en_nonum": {
+   "tpr": 1.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|ja_idiom_nonum": {
+   "tpr": 0.958,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:gemini-3.8-flash-medium|en": {
+   "tpr": 1.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:gemini-3.8-flash-medium|ja": {
+   "tpr": 1.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:gemini-3.8-flash-medium|en_ind": {
+   "tpr": 0.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:gemini-3.8-flash-medium|ja_idiom": {
+   "tpr": 0.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:gemini-3.8-flash-medium|bt_ja": {
+   "tpr": 1.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:gemini-3.8-flash-medium|bt_ja_ind": {
+   "tpr": 0.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:gemini-3.8-flash-medium|bt_ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:gemini-3.8-flash-medium|en_nonum": {
+   "tpr": 1.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:gemini-4-argon-medium|en": {
+   "tpr": 1.0,
+   "fpr": 0.053,
+   "fpr_benign": 0.045,
+   "fpr_hardneg": 0.062
+  },
+  "batch:gemini-4-argon-medium|ja": {
+   "tpr": 1.0,
+   "fpr": 0.526,
+   "fpr_benign": 0.182,
+   "fpr_hardneg": 1.0
+  },
+  "batch:gemini-4-argon-medium|en_ind": {
+   "tpr": 1.0,
+   "fpr": 0.553,
+   "fpr_benign": 0.227,
+   "fpr_hardneg": 1.0
+  },
+  "batch:gemini-4-argon-medium|ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.632,
+   "fpr_benign": 0.364,
+   "fpr_hardneg": 1.0
+  },
+  "batch:gemini-4-argon-medium|ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.579,
+   "fpr_benign": 0.273,
+   "fpr_hardneg": 1.0
+  },
+  "batch:gemini-4-argon-medium|bt_ja": {
+   "tpr": 1.0,
+   "fpr": 0.289,
+   "fpr_benign": 0.182,
+   "fpr_hardneg": 0.438
+  },
+  "batch:gemini-4-argon-medium|bt_ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.526,
+   "fpr_benign": 0.182,
+   "fpr_hardneg": 1.0
+  },
+  "batch:gemini-4-argon-medium|bt_ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.368,
+   "fpr_benign": 0.091,
+   "fpr_hardneg": 0.75
+  },
+  "batch:gemini-4-argon-medium|en_nonum": {
+   "tpr": 1.0,
+   "fpr": 1.0,
+   "fpr_benign": 1.0,
+   "fpr_hardneg": 1.0
+  },
+  "batch:gemini-4-argon-medium|ja_idiom_nonum": {
+   "tpr": 1.0,
+   "fpr": 0.763,
+   "fpr_benign": 0.955,
+   "fpr_hardneg": 0.5
+  },
+  "batch:gpt-6-astra|en": {
+   "tpr": 1.0,
+   "fpr": 0.079,
+   "fpr_benign": 0.045,
+   "fpr_hardneg": 0.125
+  },
+  "batch:gpt-6-astra|ja": {
+   "tpr": 1.0,
+   "fpr": 0.158,
+   "fpr_benign": 0.045,
+   "fpr_hardneg": 0.312
+  },
+  "batch:gpt-6-astra|en_ind": {
+   "tpr": 1.0,
+   "fpr": 0.342,
+   "fpr_benign": 0.091,
+   "fpr_hardneg": 0.688
+  },
+  "batch:gpt-6-astra|ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.237,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.562
+  },
+  "batch:gpt-6-astra|ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.263,
+   "fpr_benign": 0.045,
+   "fpr_hardneg": 0.562
+  },
+  "batch:gpt-6-astra|bt_ja": {
+   "tpr": 1.0,
+   "fpr": 0.158,
+   "fpr_benign": 0.045,
+   "fpr_hardneg": 0.312
+  },
+  "batch:gpt-6-astra|bt_ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.316,
+   "fpr_benign": 0.045,
+   "fpr_hardneg": 0.688
+  },
+  "batch:gpt-6-astra|bt_ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.395,
+   "fpr_benign": 0.091,
+   "fpr_hardneg": 0.812
+  },
+  "batch:gpt-6-astra|en_nonum": {
+   "tpr": 1.0,
+   "fpr": 0.763,
+   "fpr_benign": 0.682,
+   "fpr_hardneg": 0.875
+  },
+  "batch:gpt-6-astra|ja_idiom_nonum": {
+   "tpr": 1.0,
+   "fpr": 0.5,
+   "fpr_benign": 0.318,
+   "fpr_hardneg": 0.75
+  },
   "batch:gpt-6.1-sol|en": {
    "tpr": 1.0,
    "fpr": 0.053,
@@ -358,15 +2006,188 @@
    "fpr": 0.211,
    "fpr_benign": 0.227,
    "fpr_hardneg": 0.188
+  },
+  "batch:mistralai/mistral-large-4-0|en": {
+   "tpr": 1.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:mistralai/mistral-large-4-0|en_ind": {
+   "tpr": 1.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:mistralai/mistral-large-4-0|ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:mistralai/mistral-large-4-0|bt_ja": {
+   "tpr": 1.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:moonshotai/Kimi-K3|en": {
+   "tpr": 1.0,
+   "fpr": 0.079,
+   "fpr_benign": 0.045,
+   "fpr_hardneg": 0.125
+  },
+  "batch:moonshotai/Kimi-K3|ja": {
+   "tpr": 1.0,
+   "fpr": 0.053,
+   "fpr_benign": 0.091,
+   "fpr_hardneg": 0.0
+  },
+  "batch:moonshotai/Kimi-K3|en_ind": {
+   "tpr": 1.0,
+   "fpr": 0.526,
+   "fpr_benign": 0.182,
+   "fpr_hardneg": 1.0
+  },
+  "batch:moonshotai/Kimi-K3|ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.474,
+   "fpr_benign": 0.091,
+   "fpr_hardneg": 1.0
+  },
+  "batch:moonshotai/Kimi-K3|ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.395,
+   "fpr_benign": 0.045,
+   "fpr_hardneg": 0.875
+  },
+  "batch:moonshotai/Kimi-K3|bt_ja": {
+   "tpr": 1.0,
+   "fpr": 0.421,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 1.0
+  },
+  "batch:moonshotai/Kimi-K3|bt_ja_ind": {
+   "tpr": 1.0,
+   "fpr": 0.5,
+   "fpr_benign": 0.136,
+   "fpr_hardneg": 1.0
+  },
+  "batch:moonshotai/Kimi-K3|bt_ja_idiom": {
+   "tpr": 1.0,
+   "fpr": 0.474,
+   "fpr_benign": 0.136,
+   "fpr_hardneg": 0.938
+  },
+  "batch:moonshotai/Kimi-K3|en_nonum": {
+   "tpr": 1.0,
+   "fpr": 0.868,
+   "fpr_benign": 0.773,
+   "fpr_hardneg": 1.0
+  },
+  "batch:moonshotai/Kimi-K3|ja_idiom_nonum": {
+   "tpr": 1.0,
+   "fpr": 0.605,
+   "fpr_benign": 0.909,
+   "fpr_hardneg": 0.188
+  },
+  "batch:z-ai/glm-5.3|en": {
+   "tpr": 1.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:z-ai/glm-5.3|ja": {
+   "tpr": 0.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:z-ai/glm-5.3|en_ind": {
+   "tpr": 0.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:z-ai/glm-5.3|ja_ind": {
+   "tpr": 0.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:z-ai/glm-5.3|ja_idiom": {
+   "tpr": 0.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:z-ai/glm-5.3|bt_ja": {
+   "tpr": 0.583,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:z-ai/glm-5.3|bt_ja_ind": {
+   "tpr": 0.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:z-ai/glm-5.3|bt_ja_idiom": {
+   "tpr": 0.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:z-ai/glm-5.3|en_nonum": {
+   "tpr": 0.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
+  },
+  "batch:z-ai/glm-5.3|ja_idiom_nonum": {
+   "tpr": 0.0,
+   "fpr": 0.0,
+   "fpr_benign": 0.0,
+   "fpr_hardneg": 0.0
   }
  },
  "recovery": {
+  "batch:claude-fable-5-1|ja": 0.0,
+  "batch:claude-fable-5-1|ja_ind": 0.0,
+  "batch:claude-fable-5-1|ja_idiom": 0.0,
+  "batch:claude-haiku-5-5|ja": 0.0,
+  "batch:claude-haiku-5-5|ja_ind": 0.0,
+  "batch:claude-haiku-5-5|ja_idiom": 0.0,
+  "batch:claude-opus-5-5|ja": 0.0,
+  "batch:claude-opus-5-5|ja_ind": 0.0,
+  "batch:claude-opus-5-5|ja_idiom": 0.0,
+  "batch:claude-sonnet-5-5|ja": 0.0,
+  "batch:claude-sonnet-5-5|ja_ind": 0.0,
+  "batch:claude-sonnet-5-5|ja_idiom": 0.0,
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|ja": 0.0,
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|ja_ind": 0.0,
+  "batch:deepseek-ai/DeepSeek-V4-Pro-0813|ja_idiom": 0.0,
+  "batch:gemini-3.8-flash-medium|ja": 0.0,
+  "batch:gemini-3.8-flash-medium|ja_idiom": 0.137,
+  "batch:gemini-4-argon-medium|ja": 0.0,
+  "batch:gemini-4-argon-medium|ja_ind": 0.022,
+  "batch:gemini-4-argon-medium|ja_idiom": 0.027,
+  "batch:gpt-6-astra|ja": 0.0,
+  "batch:gpt-6-astra|ja_ind": 0.0,
+  "batch:gpt-6-astra|ja_idiom": 0.0,
   "batch:gpt-6.1-sol|ja": 0.0,
   "batch:gpt-6.1-sol|ja_ind": 0.0,
   "batch:gpt-6.1-sol|ja_idiom": 0.0,
   "batch:grok-4.7|ja": 0.0,
   "batch:grok-4.7|ja_ind": 0.0,
-  "batch:grok-4.7|ja_idiom": 0.0
+  "batch:grok-4.7|ja_idiom": 0.0,
+  "batch:moonshotai/Kimi-K3|ja": 0.0,
+  "batch:moonshotai/Kimi-K3|ja_ind": 0.0,
+  "batch:moonshotai/Kimi-K3|ja_idiom": 0.0,
+  "batch:z-ai/glm-5.3|ja": 0.0,
+  "batch:z-ai/glm-5.3|ja_ind": 0.0,
+  "batch:z-ai/glm-5.3|ja_idiom": 0.0
  },
  "price_control": {
   "collude": {

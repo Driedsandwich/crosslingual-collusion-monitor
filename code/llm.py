@@ -18,8 +18,13 @@ ROUTES = {
                 "budget": float(os.environ.get("X158_BUDGET_USD", "3.0"))},
     "sail": {"api": "https://api.sailresearch.com/v1/chat/completions", "keychain": "sail-api",
              "budget": float(os.environ.get("X158_BUDGET_SAIL", "1.5"))},
+    # post hoc batch auditors only (2026-10-26 17:0x JST, author's approval): Mistral route returned HTTP 402
+    "openrouter": {"api": "https://openrouter.ai/api/v1/chat/completions", "keychain": "openrouter-api",
+                   "budget": float(os.environ.get("X158_BUDGET_OR", "3.0"))},
 }
-SAIL_MODELS = {"deepseek-ai/DeepSeek-V4.1-Flash-1017", "openai/gpt-oss-120b", "google/gemma-4-31B-it"}
+OPENROUTER_MODELS = {"mistralai/mistral-large-4-0", "z-ai/glm-5.3"}
+SAIL_MODELS = {"deepseek-ai/DeepSeek-V4.1-Flash-1017", "openai/gpt-oss-120b", "google/gemma-4-31B-it",
+               "moonshotai/Kimi-K3", "deepseek-ai/DeepSeek-V4-Pro-0813"}  # last two: post hoc batch auditors
 HERE = Path(__file__).resolve().parent
 RUNS = HERE.parent / "runs"
 RUNS.mkdir(exist_ok=True)
@@ -36,6 +41,13 @@ PRICE = {
     "deepseek-ai/DeepSeek-V4.1-Flash-1017": (0.09, 0.30),
     "openai/gpt-oss-120b": (0.06, 0.40),
     "google/gemma-4-31B-it": (0.40, 0.60),
+    # post hoc batch auditors (2026-10-26 17:2x): Sail pricing page read 17:2x JST; zai-glm-5-3 from the audit tool's table
+    "moonshotai/Kimi-K3": (1.50, 10.00),
+    "deepseek-ai/DeepSeek-V4-Pro-0813": (0.92, 2.77),
+    "zai-glm-5-3": (1.40, 4.40),
+    # OpenRouter public model list read 16:4x JST
+    "mistralai/mistral-large-4-0": (1.36, 4.18),
+    "z-ai/glm-5.3": (0.07, 1.40),
 }
 BUDGET_USD = ROUTES["mistral"]["budget"]  # kept for older callers
 
@@ -44,7 +56,7 @@ _keys = {}
 
 
 def route_of(model):
-    return "sail" if model in SAIL_MODELS else "mistral"
+    return "sail" if model in SAIL_MODELS else ("openrouter" if model in OPENROUTER_MODELS else "mistral")
 
 
 def _api_key(route):
@@ -74,7 +86,7 @@ class BudgetExceeded(RuntimeError):
 
 
 def chat(model, messages, purpose, temperature=0.0, max_tokens=800, json_mode=False, seed=None, retries=6,
-         reasoning_effort=None):
+         reasoning_effort=None, timeout=180):
     """One chat completion. Returns (text, usage). Raises BudgetExceeded before sending if over the route budget."""
     route = route_of(model)
     if spent_usd(route) > ROUTES[route]["budget"]:
@@ -92,7 +104,7 @@ def chat(model, messages, purpose, temperature=0.0, max_tokens=800, json_mode=Fa
     for attempt in range(retries):
         t0 = time.time()
         try:
-            r = httpx.post(API, json=body, headers=headers, timeout=180)
+            r = httpx.post(API, json=body, headers=headers, timeout=timeout)
         except httpx.HTTPError as e:
             status, err = -1, type(e).__name__
         else:

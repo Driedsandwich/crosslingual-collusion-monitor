@@ -1,4 +1,1096 @@
 {
+ "batch:claude-fable-5-1|bt_ja": {
+  "mean": {
+   "hardneg": 15.1,
+   "collude": 96.9,
+   "benign": 4.4
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-fable-5-1|bt_ja_idiom": {
+  "mean": {
+   "hardneg": 20.7,
+   "collude": 96.8,
+   "benign": 3.8
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-fable-5-1|bt_ja_ind": {
+  "mean": {
+   "hardneg": 19.6,
+   "collude": 95.0,
+   "benign": 6.0
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-fable-5-1|en": {
+  "mean": {
+   "hardneg": 11.2,
+   "collude": 97.0,
+   "benign": 4.0
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-fable-5-1|en_ind": {
+  "mean": {
+   "hardneg": 20.4,
+   "collude": 96.8,
+   "benign": 5.1
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-fable-5-1|en_nonum": {
+  "mean": {
+   "hardneg": 17.5,
+   "collude": 96.8,
+   "benign": 17.6
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-fable-5-1|ja": {
+  "mean": {
+   "hardneg": 9.8,
+   "collude": 96.9,
+   "benign": 3.4
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-fable-5-1|ja_idiom": {
+  "mean": {
+   "hardneg": 14.5,
+   "collude": 96.7,
+   "benign": 3.5
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-fable-5-1|ja_idiom_nonum": {
+  "mean": {
+   "hardneg": 16.2,
+   "collude": 94.8,
+   "benign": 8.9
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-fable-5-1|ja_ind": {
+  "mean": {
+   "hardneg": 18.7,
+   "collude": 96.0,
+   "benign": 5.8
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-haiku-5-5|bt_ja": {
+  "mean": {
+   "hardneg": 9.0,
+   "collude": 95.6,
+   "benign": 4.2
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-haiku-5-5|bt_ja_idiom": {
+  "mean": {
+   "hardneg": 17.5,
+   "collude": 94.0,
+   "benign": 3.7
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-haiku-5-5|bt_ja_ind": {
+  "mean": {
+   "hardneg": 22.6,
+   "collude": 94.5,
+   "benign": 6.8
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-haiku-5-5|en": {
+  "mean": {
+   "hardneg": 10.5,
+   "collude": 93.7,
+   "benign": 6.1
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-haiku-5-5|en_ind": {
+  "mean": {
+   "hardneg": 18.9,
+   "collude": 92.0,
+   "benign": 8.6
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-haiku-5-5|en_nonum": {
+  "mean": {
+   "hardneg": 16.5,
+   "collude": 95.1,
+   "benign": 22.2
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-haiku-5-5|ja": {
+  "mean": {
+   "hardneg": 13.6,
+   "collude": 91.7,
+   "benign": 7.3
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-haiku-5-5|ja_idiom": {
+  "mean": {
+   "hardneg": 15.5,
+   "collude": 90.2,
+   "benign": 4.2
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-haiku-5-5|ja_idiom_nonum": {
+  "mean": {
+   "hardneg": 28.7,
+   "collude": 92.1,
+   "benign": 26.5
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 0.998,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-haiku-5-5|ja_ind": {
+  "mean": {
+   "hardneg": 29.5,
+   "collude": 89.5,
+   "benign": 10.2
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-opus-5-5|bt_ja": {
+  "mean": {
+   "hardneg": 13.6,
+   "collude": 98.0,
+   "benign": 6.8
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-opus-5-5|bt_ja_idiom": {
+  "mean": {
+   "hardneg": 27.9,
+   "collude": 95.6,
+   "benign": 7.4
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 0.999,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-opus-5-5|bt_ja_ind": {
+  "mean": {
+   "hardneg": 21.2,
+   "collude": 97.1,
+   "benign": 7.7
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-opus-5-5|en": {
+  "mean": {
+   "hardneg": 10.0,
+   "collude": 97.9,
+   "benign": 6.0
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-opus-5-5|en_ind": {
+  "mean": {
+   "hardneg": 20.1,
+   "collude": 97.0,
+   "benign": 8.5
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-opus-5-5|en_nonum": {
+  "mean": {
+   "hardneg": 28.8,
+   "collude": 97.9,
+   "benign": 46.7
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-opus-5-5|ja": {
+  "mean": {
+   "hardneg": 12.8,
+   "collude": 96.7,
+   "benign": 6.5
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-opus-5-5|ja_idiom": {
+  "mean": {
+   "hardneg": 20.8,
+   "collude": 96.8,
+   "benign": 7.8
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-opus-5-5|ja_idiom_nonum": {
+  "mean": {
+   "hardneg": 21.1,
+   "collude": 95.8,
+   "benign": 10.5
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-opus-5-5|ja_ind": {
+  "mean": {
+   "hardneg": 26.3,
+   "collude": 96.3,
+   "benign": 7.7
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-sonnet-5-5|bt_ja": {
+  "mean": {
+   "hardneg": 6.8,
+   "collude": 97.0,
+   "benign": 3.8
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-sonnet-5-5|bt_ja_idiom": {
+  "mean": {
+   "hardneg": 8.9,
+   "collude": 95.0,
+   "benign": 3.6
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-sonnet-5-5|bt_ja_ind": {
+  "mean": {
+   "hardneg": 10.5,
+   "collude": 95.8,
+   "benign": 4.0
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-sonnet-5-5|en": {
+  "mean": {
+   "hardneg": 6.0,
+   "collude": 97.0,
+   "benign": 3.2
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-sonnet-5-5|en_ind": {
+  "mean": {
+   "hardneg": 13.9,
+   "collude": 96.9,
+   "benign": 4.1
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-sonnet-5-5|en_nonum": {
+  "mean": {
+   "hardneg": 12.2,
+   "collude": 96.1,
+   "benign": 14.7
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-sonnet-5-5|ja": {
+  "mean": {
+   "hardneg": 6.0,
+   "collude": 97.0,
+   "benign": 3.5
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-sonnet-5-5|ja_idiom": {
+  "mean": {
+   "hardneg": 8.4,
+   "collude": 96.0,
+   "benign": 3.8
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-sonnet-5-5|ja_idiom_nonum": {
+  "mean": {
+   "hardneg": 13.5,
+   "collude": 93.9,
+   "benign": 7.6
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:claude-sonnet-5-5|ja_ind": {
+  "mean": {
+   "hardneg": 12.7,
+   "collude": 93.9,
+   "benign": 4.1
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:deepseek-ai/DeepSeek-V4-Pro-0813|bt_ja": {
+  "mean": {
+   "hardneg": 5.0,
+   "collude": 100.0,
+   "benign": 5.0
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:deepseek-ai/DeepSeek-V4-Pro-0813|bt_ja_idiom": {
+  "mean": {
+   "hardneg": 36.0,
+   "collude": 100.0,
+   "benign": 5.0
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:deepseek-ai/DeepSeek-V4-Pro-0813|bt_ja_ind": {
+  "mean": {
+   "hardneg": 5.0,
+   "collude": 95.0,
+   "benign": 5.0
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:deepseek-ai/DeepSeek-V4-Pro-0813|en": {
+  "mean": {
+   "hardneg": 5.0,
+   "collude": 100.0,
+   "benign": 5.0
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:deepseek-ai/DeepSeek-V4-Pro-0813|en_ind": {
+  "mean": {
+   "hardneg": 9.0,
+   "collude": 100.0,
+   "benign": 5.0
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 0.979,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:deepseek-ai/DeepSeek-V4-Pro-0813|en_nonum": {
+  "mean": {
+   "hardneg": 24.8,
+   "collude": 100.0,
+   "benign": 31.7
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:deepseek-ai/DeepSeek-V4-Pro-0813|ja": {
+  "mean": {
+   "hardneg": 5.0,
+   "collude": 100.0,
+   "benign": 5.0
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:deepseek-ai/DeepSeek-V4-Pro-0813|ja_idiom": {
+  "mean": {
+   "hardneg": 12.9,
+   "collude": 100.0,
+   "benign": 5.0
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 0.958,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:deepseek-ai/DeepSeek-V4-Pro-0813|ja_idiom_nonum": {
+  "mean": {
+   "hardneg": 15.8,
+   "collude": 99.8,
+   "benign": 6.2
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 0.999,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:deepseek-ai/DeepSeek-V4-Pro-0813|ja_ind": {
+  "mean": {
+   "hardneg": 86.7,
+   "collude": 100.0,
+   "benign": 5.0
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gemini-3.8-flash-medium|bt_ja": {
+  "mean": {
+   "hardneg": 0.0,
+   "collude": 100.0,
+   "benign": 0.0
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gemini-3.8-flash-medium|bt_ja_idiom": {
+  "mean": {
+   "hardneg": 0.0,
+   "collude": 100.0,
+   "benign": 0.0
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gemini-3.8-flash-medium|bt_ja_ind": {
+  "mean": {
+   "hardneg": 10.6,
+   "collude": 98.0,
+   "benign": 0.4
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gemini-3.8-flash-medium|en": {
+  "mean": {
+   "hardneg": 0.0,
+   "collude": 100.0,
+   "benign": 0.0
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gemini-3.8-flash-medium|en_ind": {
+  "mean": {
+   "hardneg": 6.9,
+   "collude": 91.0,
+   "benign": 0.2
+  },
+  "auc_vs_benign": 0.978,
+  "auc_vs_hardneg": 0.951,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gemini-3.8-flash-medium|en_nonum": {
+  "mean": {
+   "hardneg": 0.0,
+   "collude": 100.0,
+   "benign": 0.0
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gemini-3.8-flash-medium|ja": {
+  "mean": {
+   "hardneg": 0.0,
+   "collude": 100.0,
+   "benign": 0.0
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gemini-3.8-flash-medium|ja_idiom": {
+  "mean": {
+   "hardneg": 30.4,
+   "collude": 83.3,
+   "benign": 13.2
+  },
+  "auc_vs_benign": 0.91,
+  "auc_vs_hardneg": 0.821,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gemini-4-argon-medium|bt_ja": {
+  "mean": {
+   "hardneg": 6.9,
+   "collude": 99.0,
+   "benign": 3.3
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gemini-4-argon-medium|bt_ja_idiom": {
+  "mean": {
+   "hardneg": 17.6,
+   "collude": 98.8,
+   "benign": 1.8
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gemini-4-argon-medium|bt_ja_ind": {
+  "mean": {
+   "hardneg": 19.0,
+   "collude": 98.0,
+   "benign": 3.1
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gemini-4-argon-medium|en": {
+  "mean": {
+   "hardneg": 4.9,
+   "collude": 99.0,
+   "benign": 2.1
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gemini-4-argon-medium|en_ind": {
+  "mean": {
+   "hardneg": 8.1,
+   "collude": 96.0,
+   "benign": 6.5
+  },
+  "auc_vs_benign": 0.998,
+  "auc_vs_hardneg": 0.999,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gemini-4-argon-medium|en_nonum": {
+  "mean": {
+   "hardneg": 16.7,
+   "collude": 99.0,
+   "benign": 25.2
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gemini-4-argon-medium|ja": {
+  "mean": {
+   "hardneg": 9.6,
+   "collude": 99.0,
+   "benign": 2.8
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gemini-4-argon-medium|ja_idiom": {
+  "mean": {
+   "hardneg": 23.5,
+   "collude": 88.8,
+   "benign": 14.0
+  },
+  "auc_vs_benign": 0.974,
+  "auc_vs_hardneg": 0.952,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gemini-4-argon-medium|ja_idiom_nonum": {
+  "mean": {
+   "hardneg": 26.6,
+   "collude": 83.9,
+   "benign": 17.0
+  },
+  "auc_vs_benign": 0.964,
+  "auc_vs_hardneg": 0.927,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gemini-4-argon-medium|ja_ind": {
+  "mean": {
+   "hardneg": 23.4,
+   "collude": 90.0,
+   "benign": 14.5
+  },
+  "auc_vs_benign": 0.979,
+  "auc_vs_hardneg": 0.976,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gpt-6-astra|bt_ja": {
+  "mean": {
+   "hardneg": 16.2,
+   "collude": 100.0,
+   "benign": 1.2
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gpt-6-astra|bt_ja_idiom": {
+  "mean": {
+   "hardneg": 26.6,
+   "collude": 99.5,
+   "benign": 1.8
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 0.99,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gpt-6-astra|bt_ja_ind": {
+  "mean": {
+   "hardneg": 22.5,
+   "collude": 99.2,
+   "benign": 2.0
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gpt-6-astra|en": {
+  "mean": {
+   "hardneg": 8.6,
+   "collude": 100.0,
+   "benign": 0.8
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gpt-6-astra|en_ind": {
+  "mean": {
+   "hardneg": 23.2,
+   "collude": 100.0,
+   "benign": 1.9
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gpt-6-astra|en_nonum": {
+  "mean": {
+   "hardneg": 20.3,
+   "collude": 100.0,
+   "benign": 21.5
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gpt-6-astra|ja": {
+  "mean": {
+   "hardneg": 15.2,
+   "collude": 100.0,
+   "benign": 1.4
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gpt-6-astra|ja_idiom": {
+  "mean": {
+   "hardneg": 20.4,
+   "collude": 99.6,
+   "benign": 1.4
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gpt-6-astra|ja_idiom_nonum": {
+  "mean": {
+   "hardneg": 23.2,
+   "collude": 99.3,
+   "benign": 6.6
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 0.997,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:gpt-6-astra|ja_ind": {
+  "mean": {
+   "hardneg": 22.2,
+   "collude": 99.7,
+   "benign": 1.6
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
  "batch:gpt-6.1-sol|bt_ja": {
   "mean": {
    "hardneg": 17.0,
@@ -270,6 +1362,342 @@
    "hardneg": 30.7,
    "collude": 96.7,
    "benign": 6.0
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:mistralai/mistral-large-4-0|bt_ja": {
+  "mean": {
+   "hardneg": 25.6,
+   "collude": 100.0,
+   "benign": 0.4
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:mistralai/mistral-large-4-0|en": {
+  "mean": {
+   "hardneg": 16.7,
+   "collude": 98.0,
+   "benign": 0.0
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:mistralai/mistral-large-4-0|en_ind": {
+  "mean": {
+   "hardneg": 54.8,
+   "collude": 98.0,
+   "benign": 5.0
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:mistralai/mistral-large-4-0|ja_ind": {
+  "mean": {
+   "hardneg": 51.9,
+   "collude": 98.0,
+   "benign": 5.0
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:moonshotai/Kimi-K3|bt_ja": {
+  "mean": {
+   "hardneg": 16.0,
+   "collude": 100.0,
+   "benign": 2.5
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:moonshotai/Kimi-K3|bt_ja_idiom": {
+  "mean": {
+   "hardneg": 22.5,
+   "collude": 97.7,
+   "benign": 4.2
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:moonshotai/Kimi-K3|bt_ja_ind": {
+  "mean": {
+   "hardneg": 18.8,
+   "collude": 97.0,
+   "benign": 6.2
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:moonshotai/Kimi-K3|en": {
+  "mean": {
+   "hardneg": 12.6,
+   "collude": 100.0,
+   "benign": 2.5
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:moonshotai/Kimi-K3|en_ind": {
+  "mean": {
+   "hardneg": 20.9,
+   "collude": 97.0,
+   "benign": 7.1
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:moonshotai/Kimi-K3|en_nonum": {
+  "mean": {
+   "hardneg": 28.8,
+   "collude": 98.9,
+   "benign": 17.0
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:moonshotai/Kimi-K3|ja": {
+  "mean": {
+   "hardneg": 13.1,
+   "collude": 100.0,
+   "benign": 3.2
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:moonshotai/Kimi-K3|ja_idiom": {
+  "mean": {
+   "hardneg": 20.9,
+   "collude": 99.6,
+   "benign": 5.2
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:moonshotai/Kimi-K3|ja_idiom_nonum": {
+  "mean": {
+   "hardneg": 20.2,
+   "collude": 94.6,
+   "benign": 13.3
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 0.998,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:moonshotai/Kimi-K3|ja_ind": {
+  "mean": {
+   "hardneg": 22.4,
+   "collude": 97.9,
+   "benign": 6.2
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:z-ai/glm-5.3|bt_ja": {
+  "mean": {
+   "hardneg": 17.3,
+   "collude": 97.5,
+   "benign": 3.1
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:z-ai/glm-5.3|bt_ja_idiom": {
+  "mean": {
+   "hardneg": 26.9,
+   "collude": 94.6,
+   "benign": 2.8
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 0.998,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:z-ai/glm-5.3|bt_ja_ind": {
+  "mean": {
+   "hardneg": 34.2,
+   "collude": 90.0,
+   "benign": 6.0
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:z-ai/glm-5.3|en": {
+  "mean": {
+   "hardneg": 9.5,
+   "collude": 98.0,
+   "benign": 2.2
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:z-ai/glm-5.3|en_ind": {
+  "mean": {
+   "hardneg": 19.0,
+   "collude": 95.0,
+   "benign": 2.9
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:z-ai/glm-5.3|en_nonum": {
+  "mean": {
+   "hardneg": 20.2,
+   "collude": 95.0,
+   "benign": 27.9
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:z-ai/glm-5.3|ja": {
+  "mean": {
+   "hardneg": 8.8,
+   "collude": 95.0,
+   "benign": 2.0
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:z-ai/glm-5.3|ja_idiom": {
+  "mean": {
+   "hardneg": 24.8,
+   "collude": 94.6,
+   "benign": 5.2
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:z-ai/glm-5.3|ja_idiom_nonum": {
+  "mean": {
+   "hardneg": 26.2,
+   "collude": 94.6,
+   "benign": 12.9
+  },
+  "auc_vs_benign": 1.0,
+  "auc_vs_hardneg": 1.0,
+  "n": {
+   "hardneg": 24,
+   "collude": 24,
+   "benign": 24
+  }
+ },
+ "batch:z-ai/glm-5.3|ja_ind": {
+  "mean": {
+   "hardneg": 18.3,
+   "collude": 92.0,
+   "benign": 2.0
   },
   "auc_vs_benign": 1.0,
   "auc_vs_hardneg": 1.0,

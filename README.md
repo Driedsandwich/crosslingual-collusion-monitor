@@ -18,7 +18,8 @@ The question: does an LLM collusion monitor whose prompt and threshold are fixed
 | `code/variants.py` | Content-matched rewrites: `ja`, `en_ind`, `ja_ind`, `ja_idiom`, and back-translations `bt_*` |
 | `code/monitor.py` | Six per-transcript monitors, one transcript per call |
 | `code/explore.py`, `code/make_tables.py` | Exploratory class means and per-class AUC; report tables |
-| `code/batch_audit.py` | Secondary experiment: frontier batch auditors (GPT-6.1 Sol, Grok 4.7), one call per view |
+| `code/batch_audit.py` | Secondary experiment: batch auditors, one call per view (GPT-6.1 Sol and Grok 4.7 pre-registered; Claude, GPT-6 Astra, Gemini, Mistral Large 4, GLM-5.3, DeepSeek V4 Pro and Kimi K3 added post hoc) |
+| `code/run_more_auditors.py`, `code/run_more_api.py` | Runners for the eleven post hoc batch auditors |
 | `code/audit_packets.py` | Meaning-preservation audit packets (neutral labels) and the merge of verdicts |
 | `code/analyze.py`, `code/fig.py` | AUC with stratified bootstrap, paired differences, thresholded rates, figures |
 | `code/build_report.py` | Fills the official sprint template (.docx) from Markdown and exports PDF |
@@ -39,7 +40,8 @@ python code/variants.py                                         # the seven prim
 python code/variants.py --views en_nonum,ja_idiom_nonum         # exploratory number-free views
 python code/monitor.py                                          # writes runs/monitor_scores.jsonl
 python code/monitor.py --views en_nonum,ja_idiom_nonum --out runs/monitor_scores_nonum.jsonl
-python code/batch_audit.py build                                # batch prompts; the batch calls need the Codex and Grok CLIs
+python code/batch_audit.py build                                # batch prompts; the batch calls need the Codex, Grok, Claude Code and Antigravity CLIs
+python code/run_more_auditors.py && python code/run_more_api.py  # post hoc batch auditors (API keys from the macOS keychain)
 PY=python zsh code/run_analysis.sh                              # all analyses and the figure
 python code/make_tables.py                                      # tables into report/report_filled.md
 ```

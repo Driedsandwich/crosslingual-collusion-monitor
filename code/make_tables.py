@@ -13,7 +13,14 @@ R = llm.RUNS
 REP = llm.RUNS.parent / "report"
 SHORT = {"mistral-small-2603": "Mistral Small", "ministral-8b-2512": "Ministral 8B", "zai-glm-5-3-flash": "GLM-5.3 Flash",
          "deepseek-ai/DeepSeek-V4.1-Flash-1017": "DeepSeek V4.1 Flash", "openai/gpt-oss-120b": "gpt-oss-120b",
-         "google/gemma-4-31B-it": "Gemma 4 31B", "batch:gpt-6.1-sol": "GPT-6.1 Sol", "batch:grok-4.7": "Grok 4.7"}
+         "google/gemma-4-31B-it": "Gemma 4 31B", "batch:gpt-6.1-sol": "GPT-6.1 Sol", "batch:grok-4.7": "Grok 4.7",
+         # batch auditors added post hoc (PROTOCOL.md, 16:5x JST)
+         "batch:gpt-6-astra": "GPT-6 Astra*", "batch:claude-fable-5-1": "Claude Fable 5.1*",
+         "batch:claude-opus-5-5": "Claude Opus 5.5*", "batch:claude-sonnet-5-5": "Claude Sonnet 5.5*",
+         "batch:claude-haiku-5-5": "Claude Haiku 5.5*", "batch:gemini-4-argon-medium": "Gemini 4 Argon*",
+         "batch:gemini-3.8-flash-medium": "Gemini 3.8 Flash*", "batch:mistralai/mistral-large-4-0": "Mistral Large 4*",
+         "batch:z-ai/glm-5.3": "GLM-5.3*", "batch:deepseek-ai/DeepSeek-V4-Pro-0813": "DeepSeek V4 Pro*",
+         "batch:moonshotai/Kimi-K3": "Kimi K3*"}
 ORDER = list(SHORT)
 PRIMARY = ["en", "en_ind", "ja", "ja_ind", "ja_idiom", "bt_ja", "bt_ja_ind", "bt_ja_idiom"]
 
@@ -130,6 +137,7 @@ def main():
         "nonum_tpr": rate_table(non, ["en", "en_nonum", "ja_idiom", "ja_idiom_nonum"], "tpr"),
         "batch_auc": auc_table(bat, PRIMARY + ["en_nonum", "ja_idiom_nonum"]),
         "batch_fprh": rate_table(bat, PRIMARY + ["en_nonum", "ja_idiom_nonum"], "fpr_hardneg"),
+        "batch_tpr": rate_table(bat, PRIMARY + ["en_nonum", "ja_idiom_nonum"], "tpr"),
     }
     (REP / "tables.md").write_text("\n\n".join(f"### {k}\n\n{v}" for k, v in T.items()) + "\n")
     src = (REP / "report.md").read_text()

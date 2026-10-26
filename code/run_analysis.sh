@@ -19,5 +19,5 @@ $PY $H/explore.py $R/monitor_scores_all.jsonl $R/explore.json > /dev/null
 $PY $H/explore.py $R/batch_scores.jsonl $R/explore_batch.json > /dev/null
 mkdir -p $H/../report
 $PY $H/fig.py $R/results.json $H/../report/fig_main.png
-$PY $H/fig.py $R/results_batch.json $H/../report/fig_batch.png
+# fig_batch.png (two auditors only) was dropped when eleven batch auditors were added post hoc; Table 5 reports them
 wc -l $R/monitor_scores_all.jsonl $R/batch_scores.jsonl
