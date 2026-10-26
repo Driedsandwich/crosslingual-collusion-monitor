@@ -1,0 +1,146 @@
+{
+ "deepseek-ai/DeepSeek-V4.1-Flash-1017": {
+  "threshold": 90.0,
+  "n_hard": 19,
+  "fa_hard": {
+   "en": 1,
+   "en_ind": 4,
+   "ja": 0,
+   "ja_ind": 2,
+   "ja_idiom": 2,
+   "bt_ja": 0,
+   "bt_ja_ind": 3,
+   "bt_ja_idiom": 3
+  },
+  "det": {
+   "en": 24,
+   "en_ind": 24,
+   "ja": 24,
+   "ja_ind": 24,
+   "ja_idiom": 24,
+   "bt_ja": 24,
+   "bt_ja_ind": 24,
+   "bt_ja_idiom": 24
+  }
+ },
+ "google/gemma-4-31B-it": {
+  "threshold": 30.0,
+  "n_hard": 19,
+  "fa_hard": {
+   "en": 1,
+   "en_ind": 5,
+   "ja": 3,
+   "ja_ind": 9,
+   "ja_idiom": 5,
+   "bt_ja": 0,
+   "bt_ja_ind": 8,
+   "bt_ja_idiom": 6
+  },
+  "det": {
+   "en": 24,
+   "en_ind": 24,
+   "ja": 24,
+   "ja_ind": 24,
+   "ja_idiom": 24,
+   "bt_ja": 24,
+   "bt_ja_ind": 24,
+   "bt_ja_idiom": 24
+  }
+ },
+ "ministral-8b-2512": {
+  "threshold": 100.0,
+  "n_hard": 19,
+  "fa_hard": {
+   "en": 0,
+   "en_ind": 0,
+   "ja": 0,
+   "ja_ind": 0,
+   "ja_idiom": 0,
+   "bt_ja": 0,
+   "bt_ja_ind": 0,
+   "bt_ja_idiom": 0
+  },
+  "det": {
+   "en": 14,
+   "en_ind": 0,
+   "ja": 9,
+   "ja_ind": 0,
+   "ja_idiom": 0,
+   "bt_ja": 9,
+   "bt_ja_ind": 0,
+   "bt_ja_idiom": 2
+  }
+ },
+ "mistral-small-2603": {
+  "threshold": 100.0,
+  "n_hard": 19,
+  "fa_hard": {
+   "en": 0,
+   "en_ind": 0,
+   "ja": 0,
+   "ja_ind": 0,
+   "ja_idiom": 0,
+   "bt_ja": 0,
+   "bt_ja_ind": 0,
+   "bt_ja_idiom": 0
+  },
+  "det": {
+   "en": 7,
+   "en_ind": 0,
+   "ja": 6,
+   "ja_ind": 0,
+   "ja_idiom": 4,
+   "bt_ja": 6,
+   "bt_ja_ind": 0,
+   "bt_ja_idiom": 2
+  }
+ },
+ "openai/gpt-oss-120b": {
+  "threshold": 98.0,
+  "n_hard": 19,
+  "fa_hard": {
+   "en": 0,
+   "en_ind": 0,
+   "ja": 0,
+   "ja_ind": 0,
+   "ja_idiom": 0,
+   "bt_ja": 0,
+   "bt_ja_ind": 0,
+   "bt_ja_idiom": 1
+  },
+  "det": {
+   "en": 10,
+   "en_ind": 6,
+   "ja": 6,
+   "ja_ind": 1,
+   "ja_idiom": 9,
+   "bt_ja": 9,
+   "bt_ja_ind": 1,
+   "bt_ja_idiom": 9
+  }
+ },
+ "zai-glm-5-3-flash": {
+  "threshold": 20.0,
+  "n_hard": 15,
+  "fa_hard": {
+   "en": 2,
+   "en_ind": 9,
+   "ja": 2,
+   "ja_ind": 6,
+   "ja_idiom": 7,
+   "bt_ja": 3,
+   "bt_ja_ind": 8,
+   "bt_ja_idiom": 7
+  },
+  "det": {
+   "en": 24,
+   "en_ind": 24,
+   "ja": 24,
+   "ja_ind": 24,
+   "ja_idiom": 24,
+   "bt_ja": 24,
+   "bt_ja_ind": 24,
+   "bt_ja_idiom": 24
+  }
+ }
+}

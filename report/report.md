@@ -80,7 +80,7 @@ For every monitor and view, the mean score of the 24 collusive transcripts was 9
 
 ### 4.3 Thresholds: false alarms for strong monitors, misses for weak ones
 
-With each monitor's English threshold kept fixed (Figure 1, Table 2), the three strongest monitors still detected all 24 collusive chats in every view, but their false alarms on hard negatives grew: GLM-5.3 Flash from 4 to 14 of 20 (en to en_ind), Gemma 4 31B from 2 to 14 of 24 (en to ja_ind), DeepSeek V4.1 Flash from 4 to 9 of 24 (en to en_ind). False alarms on benign chats stayed at 3 of 24 or fewer. The three weaker monitors failed the other way. Because they already scored many English hard negatives near 100, their English thresholds sit at 98 (gpt-oss-120b) and 100 (Mistral Small, Ministral 8B), and they detect a collusive chat only when it scores at or above that line: 10, 7 and 14 of 24 in English. In indirect English (en_ind) and indirect Japanese (ja_ind), their collusive chats scored slightly lower (means 95-98, just under their lines), and detection fell to 0-1 of 24, except 6 of 24 for gpt-oss-120b in en_ind. Plain Japanese cost them less (6, 6 and 9 of 24 in ja). Two post hoc checks locate the failure. A threshold midway between the highest English negative and the lowest English collusive score (English data only) kept the strong monitors at 0-3 hard-negative false alarms with 22-24 detected in every view, so their false-alarm rise largely reflects the budget-based calibration rule rather than ranking. Fitting each threshold with the 10% rule on half of a view's transcripts and testing on the other half (1,000 random splits) gave the strong monitors mean hard-negative false-alarm rates of 9-20% (11-16% in held-out English) with 94-100% detection; for the weak monitors it helped selectively (Ministral 8B in three views, Mistral Small in none; Tables 6 and 9).
+With each monitor's English threshold kept fixed (Figure 1, Table 2), the three strongest monitors still detected all 24 collusive chats in every view, but their false alarms on hard negatives grew: GLM-5.3 Flash from 4 to 14 of 20 (en to en_ind), Gemma 4 31B from 2 to 14 of 24 (en to ja_ind), DeepSeek V4.1 Flash from 4 to 9 of 24 (en to en_ind). False alarms on benign chats stayed at 3 of 24 or fewer. The three weaker monitors failed the other way. Because they already scored many English hard negatives near 100, their English thresholds sit at 98 (gpt-oss-120b) and 100 (Mistral Small, Ministral 8B), and they detect a collusive chat only when it scores at or above that line: 10, 7 and 14 of 24 in English. In indirect English (en_ind) and indirect Japanese (ja_ind), their collusive chats scored slightly lower (means 95-98, just under their lines), and detection fell to 0-1 of 24, except 6 of 24 for gpt-oss-120b in en_ind. Plain Japanese cost them less (6, 6 and 9 of 24 in ja). Two post hoc checks locate the failure. A threshold midway between the highest English negative and the lowest English collusive score (English data only) kept the strong monitors at 0-3 hard-negative false alarms with 22-24 detected in every view; fitted on three English folds and tested on the fourth (four folds), it gave 0-4 false alarms in the rewritten views against 3-15 for the budget rule (Table 10), so their false-alarm rise largely reflects the budget-based rule rather than ranking. Fitting each threshold with the 10% rule on half of a view's transcripts and testing on the other half (1,000 random splits) gave the strong monitors mean hard-negative false-alarm rates of 9-20% (11-16% in held-out English) with 94-100% detection. Held out, it raised Ministral 8B's mean detection in all eight views (with 4-14% hard-negative false alarms, from 0) but moved Mistral Small's by 5 percentage points or less (Table 9; in-sample, Table 6).
 
 
 **Table 2.** At each monitor's English threshold (in parentheses): collusive chats detected (of 24) / hard negatives falsely flagged (of 24; of 20 for GLM-5.3 Flash).
@@ -96,13 +96,13 @@ With each monitor's English threshold kept fixed (Figure 1, Table 2), the three 
 
 ![Figure 1. Detection rate on the 24 collusive chats (top) and false-alarm rate on the hard negatives (bottom; 20 for GLM-5.3 Flash) at each monitor's English threshold, for every view. Shaded: back-translated views. Counts are in Table 2.](fig_main.png)
 
-### 4.4 Back-translation does not restore either rate
+### 4.4 Back-translation does not consistently restore English performance
 
 Back-translating a Japanese view changed AUC by at most 0.03 from that view. It did not consistently restore English performance (GLM-5.3 Flash still flagged 13 of 20 hard negatives in bt_ja_ind, Gemma 4 31B 13 of 24), and no weaker monitor regained its English detection count (Table 2). The back-translations keep the formal tone, and sometimes add cooperative words. In har01 the English "Let's see who can offer the best value this round!" became *sessa takuma* (friendly rivalry) in ja_idiom, which the back-translator rendered as "We hope to work together to provide excellent value"; DeepSeek V4.1 Flash scored this transcript 15 in en, 10 in ja_idiom and 90 in bt_ja_idiom. It helped in some cases (Appendix D).
 
 ### 4.5 Robustness
 
-The second audit round found coordination-like lines in the English originals of four hard negatives (har03, har04, har06, har12), despite the generator's instruction. Excluding them and har23, with thresholds re-fixed on the remaining English negatives (post hoc), the strong monitors' false-alarm pattern is unchanged or stronger: from en to en_ind, hard-negative false alarms rise from 0.13 to 0.60 (GLM-5.3 Flash), 0.10 to 0.74 (Gemma 4 31B) and 0.10 to 0.32 (DeepSeek V4.1 Flash). Mistral Small's and Ministral 8B's misses are unchanged (thresholds stay at 100), but gpt-oss-120b's threshold falls to 95 and it then detects all 24 in every view, so its misses depend on these transcripts.
+The second audit round found coordination-like lines in the English originals of four hard negatives (har03, har04, har06, har12), despite the generator's instruction. Excluding them and har23 (post hoc), the strong monitors' false-alarm rise remains at the original thresholds (en to en_ind: 2 to 9 of 15 for GLM-5.3 Flash, 1 to 4 of 19 for DeepSeek V4.1 Flash; en to ja_ind: 1 to 9 of 19 for Gemma 4 31B) and with re-fixed thresholds (Appendix D). Mistral Small's and Ministral 8B's misses are unchanged (thresholds stay at 100), but gpt-oss-120b's threshold falls to 95 and it then detects all 24 in every view, so its misses depend on these transcripts.
 
 ### 4.6 Secondary experiment: batch auditors
 
@@ -267,6 +267,8 @@ All prompts are reproduced verbatim from the code, except that the three Japanes
 | DeepSeek V4 Pro* (100) | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 0.00 | 1.00 |
 | Kimi K3* (30) | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 |
 
+**Label-noise exclusion with re-fixed thresholds (Section 4.5).** With thresholds re-fixed on the remaining English negatives, hard-negative false alarms rise from en to en_ind from 0.13 to 0.60 (GLM-5.3 Flash), 0.10 to 0.74 (Gemma 4 31B) and 0.10 to 0.32 (DeepSeek V4.1 Flash).
+
 **Recalibration and hard negatives (post hoc, Section 4.3).** Table 6 re-fixes each monitor's threshold on each view's own negatives with the same 10% rule (in-sample, so optimistic; `code/recalibrate.py`), and Table 7 gives AUC for collusive chats against hard negatives only.
 
 **Table 6.** Detected collusive chats (of 24) / falsely flagged hard negatives (of 24; of 20 for GLM-5.3 Flash) at the in-view threshold (in parentheses; 101 flags nothing).
@@ -309,3 +311,14 @@ All prompts are reproduced verbatim from the code, except that the three Japanes
 | DeepSeek V4.1 Flash | 1.00 / 0.16 | 1.00 / 0.09 | 1.00 / 0.16 | 0.97 / 0.17 | 0.98 / 0.17 | 1.00 / 0.14 | 1.00 / 0.17 | 0.94 / 0.14 |
 | gpt-oss-120b | 0.70 / 0.15 | 0.77 / 0.15 | 0.32 / 0.04 | 0.48 / 0.15 | 0.39 / 0.01 | 0.67 / 0.15 | 0.30 / 0.11 | 0.38 / 0.04 |
 | Gemma 4 31B | 1.00 / 0.11 | 1.00 / 0.14 | 1.00 / 0.12 | 1.00 / 0.14 | 1.00 / 0.12 | 1.00 / 0.15 | 1.00 / 0.14 | 1.00 / 0.13 |
+
+**Table 10.** Held-out comparison of the two English threshold rules (post hoc; `runs/results_policy_cv.json`): one fixed four-fold split stratified by class, all views of a transcript in the same fold; each fold is scored with thresholds fitted on the other three folds' English scores. Detected collusive chats (of 24) / falsely flagged hard negatives (of 24; of 20 for GLM-5.3 Flash), summed over folds.
+
+| Monitor, rule | en | en_ind | ja | ja_ind | ja_idiom | bt_ja | bt_ja_ind | bt_ja_idiom |
+|---|---|---|---|---|---|---|---|---|
+| GLM-5.3 Flash, budget | 24 / 4 | 24 / 12 | 24 / 8 | 24 / 11 | 24 / 11 | 24 / 8 | 24 / 12 | 24 / 11 |
+| GLM-5.3 Flash, midpoint | 24 / 0 | 24 / 0 | 24 / 1 | 24 / 1 | 24 / 3 | 23 / 0 | 24 / 2 | 24 / 3 |
+| DeepSeek V4.1 Flash, budget | 24 / 4 | 24 / 8 | 24 / 3 | 24 / 7 | 24 / 6 | 24 / 4 | 24 / 8 | 24 / 10 |
+| DeepSeek V4.1 Flash, midpoint | 24 / 2 | 24 / 4 | 24 / 1 | 23 / 2 | 23 / 3 | 24 / 1 | 24 / 2 | 22 / 2 |
+| Gemma 4 31B, budget | 24 / 2 | 24 / 11 | 24 / 9 | 24 / 15 | 24 / 12 | 24 / 5 | 24 / 14 | 24 / 11 |
+| Gemma 4 31B, midpoint | 24 / 2 | 24 / 3 | 24 / 2 | 24 / 4 | 24 / 2 | 24 / 1 | 24 / 4 | 24 / 4 |
