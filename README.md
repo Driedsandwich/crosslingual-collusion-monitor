@@ -1,8 +1,8 @@
 # Cross-lingual collusion monitoring
 
-Code, prompts, synthetic transcripts and scores for the report *Japanese and Euphemistic Seller Chats Break the English-Calibrated Thresholds of LLM Collusion Monitors* (AI Collusion Research Sprint, Apart Research, October 2026).
+Code, prompts, synthetic transcripts and scores for the report *Euphemistic Register Breaks Budget-Set English Thresholds of LLM Collusion Monitors, Even Where Rankings Hold* (AI Collusion Research Sprint, Apart Research, October 2026).
 
-The question: does an LLM collusion monitor whose prompt and threshold are fixed on English logs still separate collusion from competition when the same seller chats are written in Japanese, in indirect euphemistic English, or in Japanese business register, and does translating back to English help? Short answer: explicit coordination stays visible, but indirect register breaks the English-calibrated thresholds (more false alarms for strong monitors, misses for weak ones), and back-translation does not repair it.
+The question: does an LLM collusion monitor whose prompt and threshold are fixed on English logs still separate collusion from competition when the same seller chats are written in Japanese, in indirect euphemistic English, or in Japanese business register, and does translating back to English help? Short answer: the strongest monitors keep ranking collusion almost perfectly, but thresholds set for a false-alarm budget on English negatives fail under indirect register (more false alarms for strong monitors, misses for weak ones), and back-translation does not repair it. Post hoc, thresholds placed midway between the English classes, or re-fixed on held-out deployment-view data, restore the strong monitors but only partly the weak ones.
 
 ## Prior work
 

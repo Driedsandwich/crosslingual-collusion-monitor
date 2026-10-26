@@ -1,0 +1,386 @@
+{
+ "deepseek-ai/DeepSeek-V4.1-Flash-1017|en": {
+  "det_mean": 1.0,
+  "det_p5": 1.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.158,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.333
+ },
+ "deepseek-ai/DeepSeek-V4.1-Flash-1017|en_ind": {
+  "det_mean": 1.0,
+  "det_p5": 1.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.086,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.417
+ },
+ "deepseek-ai/DeepSeek-V4.1-Flash-1017|ja": {
+  "det_mean": 1.0,
+  "det_p5": 1.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.163,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.417
+ },
+ "deepseek-ai/DeepSeek-V4.1-Flash-1017|ja_ind": {
+  "det_mean": 0.975,
+  "det_p5": 0.833,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.173,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.417
+ },
+ "deepseek-ai/DeepSeek-V4.1-Flash-1017|ja_idiom": {
+  "det_mean": 0.985,
+  "det_p5": 0.917,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.17,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.417
+ },
+ "deepseek-ai/DeepSeek-V4.1-Flash-1017|bt_ja": {
+  "det_mean": 1.0,
+  "det_p5": 1.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.14,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.333
+ },
+ "deepseek-ai/DeepSeek-V4.1-Flash-1017|bt_ja_ind": {
+  "det_mean": 1.0,
+  "det_p5": 1.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.168,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.5
+ },
+ "deepseek-ai/DeepSeek-V4.1-Flash-1017|bt_ja_idiom": {
+  "det_mean": 0.942,
+  "det_p5": 0.833,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.141,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.417
+ },
+ "google/gemma-4-31B-it|en": {
+  "det_mean": 1.0,
+  "det_p5": 1.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.112,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.333
+ },
+ "google/gemma-4-31B-it|en_ind": {
+  "det_mean": 1.0,
+  "det_p5": 1.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.144,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.333
+ },
+ "google/gemma-4-31B-it|ja": {
+  "det_mean": 1.0,
+  "det_p5": 1.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.118,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.417
+ },
+ "google/gemma-4-31B-it|ja_ind": {
+  "det_mean": 1.0,
+  "det_p5": 1.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.142,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.417
+ },
+ "google/gemma-4-31B-it|ja_idiom": {
+  "det_mean": 1.0,
+  "det_p5": 1.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.121,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.417
+ },
+ "google/gemma-4-31B-it|bt_ja": {
+  "det_mean": 1.0,
+  "det_p5": 1.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.146,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.417
+ },
+ "google/gemma-4-31B-it|bt_ja_ind": {
+  "det_mean": 1.0,
+  "det_p5": 1.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.143,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.333
+ },
+ "google/gemma-4-31B-it|bt_ja_idiom": {
+  "det_mean": 1.0,
+  "det_p5": 1.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.134,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.417
+ },
+ "ministral-8b-2512|en": {
+  "det_mean": 0.662,
+  "det_p5": 0.417,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.082,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.417
+ },
+ "ministral-8b-2512|en_ind": {
+  "det_mean": 1.0,
+  "det_p5": 1.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.04,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.083
+ },
+ "ministral-8b-2512|ja": {
+  "det_mean": 0.674,
+  "det_p5": 0.25,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.137,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.333
+ },
+ "ministral-8b-2512|ja_ind": {
+  "det_mean": 0.96,
+  "det_p5": 0.917,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.041,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.083
+ },
+ "ministral-8b-2512|ja_idiom": {
+  "det_mean": 0.276,
+  "det_p5": 0.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.108,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.417
+ },
+ "ministral-8b-2512|bt_ja": {
+  "det_mean": 0.566,
+  "det_p5": 0.25,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.108,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.417
+ },
+ "ministral-8b-2512|bt_ja_ind": {
+  "det_mean": 1.0,
+  "det_p5": 1.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.04,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.083
+ },
+ "ministral-8b-2512|bt_ja_idiom": {
+  "det_mean": 0.362,
+  "det_p5": 0.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.118,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.417
+ },
+ "mistral-small-2603|en": {
+  "det_mean": 0.287,
+  "det_p5": 0.167,
+  "det_p95": 0.417,
+  "fa_hard_mean": 0.0,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.0
+ },
+ "mistral-small-2603|en_ind": {
+  "det_mean": 0.0,
+  "det_p5": 0.0,
+  "det_p95": 0.0,
+  "fa_hard_mean": 0.0,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.0
+ },
+ "mistral-small-2603|ja": {
+  "det_mean": 0.296,
+  "det_p5": 0.167,
+  "det_p95": 0.417,
+  "fa_hard_mean": 0.0,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.0
+ },
+ "mistral-small-2603|ja_ind": {
+  "det_mean": 0.0,
+  "det_p5": 0.0,
+  "det_p95": 0.0,
+  "fa_hard_mean": 0.0,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.0
+ },
+ "mistral-small-2603|ja_idiom": {
+  "det_mean": 0.151,
+  "det_p5": 0.0,
+  "det_p95": 0.25,
+  "fa_hard_mean": 0.0,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.0
+ },
+ "mistral-small-2603|bt_ja": {
+  "det_mean": 0.252,
+  "det_p5": 0.083,
+  "det_p95": 0.417,
+  "fa_hard_mean": 0.0,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.0
+ },
+ "mistral-small-2603|bt_ja_ind": {
+  "det_mean": 0.0,
+  "det_p5": 0.0,
+  "det_p95": 0.0,
+  "fa_hard_mean": 0.0,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.0
+ },
+ "mistral-small-2603|bt_ja_idiom": {
+  "det_mean": 0.041,
+  "det_p5": 0.0,
+  "det_p95": 0.083,
+  "fa_hard_mean": 0.0,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.0
+ },
+ "openai/gpt-oss-120b|en": {
+  "det_mean": 0.705,
+  "det_p5": 0.25,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.147,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.333
+ },
+ "openai/gpt-oss-120b|en_ind": {
+  "det_mean": 0.769,
+  "det_p5": 0.167,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.152,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.333
+ },
+ "openai/gpt-oss-120b|ja": {
+  "det_mean": 0.316,
+  "det_p5": 0.083,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.045,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.5
+ },
+ "openai/gpt-oss-120b|ja_ind": {
+  "det_mean": 0.482,
+  "det_p5": 0.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.146,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.5
+ },
+ "openai/gpt-oss-120b|ja_idiom": {
+  "det_mean": 0.386,
+  "det_p5": 0.25,
+  "det_p95": 0.583,
+  "fa_hard_mean": 0.011,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.0
+ },
+ "openai/gpt-oss-120b|bt_ja": {
+  "det_mean": 0.668,
+  "det_p5": 0.25,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.148,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.417
+ },
+ "openai/gpt-oss-120b|bt_ja_ind": {
+  "det_mean": 0.301,
+  "det_p5": 0.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.108,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.417
+ },
+ "openai/gpt-oss-120b|bt_ja_idiom": {
+  "det_mean": 0.378,
+  "det_p5": 0.25,
+  "det_p95": 0.5,
+  "fa_hard_mean": 0.045,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.083
+ },
+ "zai-glm-5-3-flash|en": {
+  "det_mean": 1.0,
+  "det_p5": 1.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.158,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.4
+ },
+ "zai-glm-5-3-flash|en_ind": {
+  "det_mean": 1.0,
+  "det_p5": 1.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.175,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.5
+ },
+ "zai-glm-5-3-flash|ja": {
+  "det_mean": 1.0,
+  "det_p5": 1.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.177,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.5
+ },
+ "zai-glm-5-3-flash|ja_ind": {
+  "det_mean": 1.0,
+  "det_p5": 1.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.175,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.4
+ },
+ "zai-glm-5-3-flash|ja_idiom": {
+  "det_mean": 0.996,
+  "det_p5": 1.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.203,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.5
+ },
+ "zai-glm-5-3-flash|bt_ja": {
+  "det_mean": 0.999,
+  "det_p5": 1.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.186,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.5
+ },
+ "zai-glm-5-3-flash|bt_ja_ind": {
+  "det_mean": 1.0,
+  "det_p5": 1.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.176,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.5
+ },
+ "zai-glm-5-3-flash|bt_ja_idiom": {
+  "det_mean": 1.0,
+  "det_p5": 1.0,
+  "det_p95": 1.0,
+  "fa_hard_mean": 0.176,
+  "fa_hard_p5": 0.0,
+  "fa_hard_p95": 0.5
+ }
+}
