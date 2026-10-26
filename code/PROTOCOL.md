@@ -92,6 +92,12 @@ returned HTTP 402 because the plan's monthly allowance was used up); DeepSeek V4
 original two batch auditors (AUC, and detection and hard-negative false alarms at each auditor's own `en` threshold). These seats
 are reported as exploratory. Budget for this addition: Anthropic API credit up to 60 USD, Sail route raised to 4.0 USD, OpenRouter up to 3.0 USD
 (author's approval, 2026-10-26 16:4x-17:0x JST).
+Re-runs (17:2x JST): six Mistral Large 4 calls that hung for 900 s on OpenRouter were re-run there two at a time with a 300 s
+limit; the two Gemini 3.8 Flash views (`ja_ind`, `ja_idiom_nonum`) that returned empty answers twice through the Antigravity CLI were
+re-run on `google/gemini-3.8-flash` through OpenRouter at medium reasoning and filed under the same seat (`run_detour.py`).
 
 ## Deviations
 - 2026-10-26 06:1x JST, secondary experiment: seven of the eight GPT-6.1 Sol batch calls ran on a second machine through the Codex CLI. The `bt_ja_idiom` call was blocked there by the author's outbound content filter, which matched the word "secretly" in a benign transcript. That call was sent instead from the main machine through the Codex CLI with the same model (gpt-6.1-sol), the same reasoning effort (medium), a read-only sandbox and an empty working folder. The prompt was not changed.
+- Noted 2026-10-26 17:5x JST (found by a reviewer model): the bootstrap in `analyze.py` redraws the collusive and the negative
+  transcripts separately, as two strata; benign and hard negatives are not redrawn separately. "Stratified by class" above should
+  be read as this two-group scheme, which was the implemented analysis throughout.

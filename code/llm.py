@@ -22,7 +22,7 @@ ROUTES = {
     "openrouter": {"api": "https://openrouter.ai/api/v1/chat/completions", "keychain": "openrouter-api",
                    "budget": float(os.environ.get("X158_BUDGET_OR", "3.0"))},
 }
-OPENROUTER_MODELS = {"mistralai/mistral-large-4-0", "z-ai/glm-5.3"}
+OPENROUTER_MODELS = {"mistralai/mistral-large-4-0", "z-ai/glm-5.3", "google/gemini-3.8-flash"}
 SAIL_MODELS = {"deepseek-ai/DeepSeek-V4.1-Flash-1017", "openai/gpt-oss-120b", "google/gemma-4-31B-it",
                "moonshotai/Kimi-K3", "deepseek-ai/DeepSeek-V4-Pro-0813"}  # last two: post hoc batch auditors
 HERE = Path(__file__).resolve().parent
@@ -48,6 +48,7 @@ PRICE = {
     # OpenRouter public model list read 16:4x JST
     "mistralai/mistral-large-4-0": (1.36, 4.18),
     "z-ai/glm-5.3": (0.07, 1.40),
+    "google/gemini-3.8-flash": (0.825, 4.125),
 }
 BUDGET_USD = ROUTES["mistral"]["budget"]  # kept for older callers
 
@@ -98,7 +99,10 @@ def chat(model, messages, purpose, temperature=0.0, max_tokens=800, json_mode=Fa
     if seed is not None and route == "mistral":  # Sail rejects `seed` (HTTP 400 unsupported_feature, 2026-10-26)
         body["random_seed"] = seed
     if reasoning_effort is not None:
-        body["reasoning_effort"] = reasoning_effort
+        if route == "openrouter":  # OpenRouter's unified reasoning setting
+            body["reasoning"] = {"effort": reasoning_effort}
+        else:
+            body["reasoning_effort"] = reasoning_effort
     headers = {"Authorization": f"Bearer {_api_key(route)}", "Content-Type": "application/json"}
     delay = 2.0
     for attempt in range(retries):

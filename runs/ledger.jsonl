@@ -6050,3 +6050,11 @@
 {"t": "2026-10-26T17:12:03", "model": "moonshotai/Kimi-K3", "req_model": "moonshotai/Kimi-K3", "purpose": "batch:en_nonum", "in": 35052, "out": 10992, "sec": 72.79, "status": 200, "attempt": 1}
 {"t": "2026-10-26T17:12:11", "model": "z-ai/glm-5.3", "req_model": "z-ai/glm-5.3", "purpose": "batch:en_nonum", "in": 35059, "out": 1732, "sec": 7.81, "status": 200, "attempt": 1}
 {"t": "2026-10-26T17:12:39", "model": "z-ai/glm-5.3", "req_model": "z-ai/glm-5.3", "purpose": "batch:ja_idiom_nonum", "in": 59835, "out": 1908, "sec": 11.02, "status": 200, "attempt": 0}
+{"t": "2026-10-26T17:26:49", "model": "mistralai/mistral-large-4-0", "req_model": "mistralai/mistral-large-4-0", "purpose": "batch:ja", "in": 48083, "out": 10393, "sec": 62.18, "status": 200, "attempt": 0}
+{"t": "2026-10-26T17:27:08", "model": "mistralai/mistral-large-4-0", "req_model": "mistralai/mistral-large-4-0", "purpose": "batch:ja_idiom", "in": 64289, "out": 9337, "sec": 80.75, "status": 200, "attempt": 0}
+{"t": "2026-10-26T17:27:38", "model": "mistralai/mistral-large-4-0", "req_model": "mistralai/mistral-large-4-0", "purpose": "batch:bt_ja_ind", "in": 38037, "out": 8727, "sec": 48.9, "status": 200, "attempt": 0}
+{"t": "2026-10-26T17:28:28", "model": "mistralai/mistral-large-4-0", "req_model": "mistralai/mistral-large-4-0", "purpose": "batch:bt_ja_idiom", "in": 40066, "out": 9733, "sec": 79.75, "status": 200, "attempt": 0}
+{"t": "2026-10-26T17:29:14", "model": "mistralai/mistral-large-4-0", "req_model": "mistralai/mistral-large-4-0", "purpose": "batch:en_nonum", "in": 35661, "out": 10796, "sec": 95.82, "status": 200, "attempt": 0}
+{"t": "2026-10-26T17:30:40", "model": "google/gemini-3.8-flash", "req_model": "google/gemini-3.8-flash", "purpose": "batch:ja_ind", "in": 46790, "out": 14311, "sec": 85.85, "status": 200, "attempt": 0}
+{"t": "2026-10-26T17:31:03", "model": "mistralai/mistral-large-4-0", "req_model": "mistralai/mistral-large-4-0", "purpose": "batch:ja_idiom_nonum", "in": 67056, "out": 12965, "sec": 155.27, "status": 200, "attempt": 0}
+{"t": "2026-10-26T17:31:51", "model": "google/gemini-3.8-flash", "req_model": "google/gemini-3.8-flash", "purpose": "batch:ja_idiom_nonum", "in": 48869, "out": 11268, "sec": 70.47, "status": 200, "attempt": 0}

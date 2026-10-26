@@ -207,23 +207,24 @@ def agy(model, view):
         parse("batch:" + model, view, out)
 
 
-def api(model, view):
-    """A model on the Mistral or Sail API through llm.chat (route budgets in llm.py apply)."""
+def api(model, view, seat=None, effort=None, timeout=900):
+    """A model on the Mistral, Sail or OpenRouter API through llm.chat (route budgets in llm.py apply).
+    `seat` files the scores under another seat name (used when a call for an agy seat is re-routed; see PROTOCOL.md)."""
     prompt = (BATCH / f"prompt_{view}.txt").read_text()
     t0 = datetime.datetime.now()
     try:
         text, usage = llm.chat(model, [{"role": "user", "content": prompt}], purpose=f"batch:{view}", temperature=0.0,
-                               max_tokens=24000, retries=3, timeout=900)
+                               max_tokens=24000, retries=3, timeout=timeout, reasoning_effort=effort)
         err = None
     except Exception as e:  # budget stop or HTTP error: record and move on
         text, usage, err = "", None, f"{type(e).__name__}: {str(e)[:200]}"
     secs = round((datetime.datetime.now() - t0).total_seconds())
     out = BATCH / f"answer_{model.replace('/', '_')}_{view}.txt"
     out.write_text(text or "")
-    log_meta({"seat": model, "view": view, "secs": secs, "usage": usage, "err": err, "chars": len(text or ""),
-              "started": t0.isoformat(timespec="seconds")}, ("seat", "view", "secs", "err", "chars"))
+    log_meta({"seat": seat or model, "route_model": model, "view": view, "secs": secs, "usage": usage, "err": err,
+              "chars": len(text or ""), "started": t0.isoformat(timespec="seconds")}, ("seat", "view", "secs", "err", "chars"))
     if text:
-        parse("batch:" + model, view, out)
+        parse("batch:" + (seat or model), view, out)
 
 
 def parse(seat, view, path):
@@ -260,8 +261,8 @@ if __name__ == "__main__":
         codex(a.args[0], a.args[1], a.effort)
     elif a.cmd == "agy":
         agy(a.args[0], a.args[1])
-    elif a.cmd == "api":
-        api(a.args[0], a.args[1])
+    elif a.cmd == "api":  # api <model> <view> [seat] ; --effort applies only when given explicitly with a seat
+        api(a.args[0], a.args[1], *(a.args[2:3]), **({"effort": a.effort, "timeout": 300} if len(a.args) > 2 else {"timeout": 300}))
     elif a.cmd == "parse":
         parse(a.args[0], a.args[1], a.args[2])
     else:
